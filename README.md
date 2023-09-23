@@ -1,7 +1,7 @@
 <!-- Replace these placeholders with your own content -->
 
 <h1 align="center">
-  <img src="https://your-repo-image-url.png" alt="RadheShyam Travel Guide">
+  <!-- <img src="https://your-repo-image-url.png" alt="RadheShyam Travel Guide"> -->
   <br>
   Desert national park - guide
 </h1>
@@ -11,15 +11,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mahendra2811/Desert-national-park" target="_blank">
+  <!-- <a href="https://github.com/mahendra2811/Desert-national-park" target="_blank">
     <img src="https://img.shields.io/github/stars/mahendra2811/Desert-national-park.svg" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/mahendra2811/Desert-national-park/issues" target="_blank">
+  </a> -->
+  <!-- <a href="https://github.com/mahendra2811/Desert-national-park/issues" target="_blank">
     <img src="https://img.shields.io/github/issues/mahendra2811/Desert-national-park.svg" alt="GitHub issues">
   </a>
   <a href="https://github.com/mahendra2811/Desert-national-park/pulls" target="_blank">
     <img src="https://img.shields.io/github/issues-pr/mahendra2811/Desert-national-park.svg" alt="GitHub pull requests">
-  </a>
+  </a> -->
 </p>
 
 ---
@@ -45,21 +45,6 @@ Destination Information: Detailed descriptions, images, and guides about various
 
 Wildlife Catalog: An extensive catalog of the diverse wildlife in the area, including mammals, reptiles, and birds. Users can learn about the fauna they may encounter during their visit.
 
-Image Gallery: A captivating image gallery showcasing the natural beauty and wildlife of the region. Users can get a sneak peek of what they can expect during their visit.
-
-Contact Information: Contact details of the tour guide, Radhe Shyam, who is dedicated to conserving the Great Indian Bustard in the Thar Desert. This allows travelers to easily reach out for inquiries and bookings.
-
-Booking: A streamlined booking system that enables tourists to plan and book their tours directly through the website, ensuring a hassle-free experience.
-
-Social Media Integration: Links to Radhe Shyam's social media profiles on platforms like Instagram, Facebook, Twitter, and YouTube. This fosters engagement and allows travelers to stay updated.
-
-Responsive Design: The website is designed to be accessible on various devices, including desktops, tablets, and mobile phones, ensuring a seamless experience for all users.
-
-Interactive Map: An interactive map that helps tourists navigate the Desert National Park and discover key points of interest.
-
-Frequently Asked Questions: A section addressing common queries that travelers might have, offering quick answers to ease their planning process.
-
-Multilingual Support: Support for multiple languages to cater to both domestic and international tourists, making information accessible to a wider audience.
 
 In summary, the "RadheShyam Travel Guide" is a user-friendly platform that combines informative content, stunning visuals, and practical tools to assist travelers in planning their desert adventure. Whether you're a nature enthusiast, wildlife lover, or simply looking for an extraordinary travel experience, this website caters to all, ensuring that your journey through the Desert National Park and Thar Desert is both enjoyable and memorable.
 
@@ -91,9 +76,3 @@ https://desert-national-park.vercel.app/
 
 
 
-```shell
-# Example installation steps
-git clone https://github.com/mahendra2811/Desert-national-park.git
-cd Desert-national-park
-npm install
-npm start
