@@ -589,15 +589,7 @@ body {
   animation: pulse infinite;
   animation-duration: 2s;
 }
-</style>
-<!-- End WhatsApp fixed widget -->
-<style>
-@media screen and (max-width: 479px) {
-  .menu-button-2 {
-    background-color: #fff;
-    color: #000;
-  }
-}
+
 /* whatsapp fixed css end   */
 
 

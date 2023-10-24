@@ -24,6 +24,13 @@ const navToggleEvent = function (elem) {
 navToggleEvent(navElemArr);
 navToggleEvent(navLinks);
 
+// for whatsaapp icon start 
+// start
+
+
+// end
+// for whatsaapp icon end 
+
 
 
 /**
