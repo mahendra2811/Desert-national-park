@@ -499,8 +499,40 @@ body {
   color: var(--bright-navy-blue);
 }
 
+
+/* for logo - top desert national park start  */
+.logo-DNP{
+  position: absolute;
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Sacramento', cursive;
+  font-size: 25px;
+  /* font-weight: 600; */
+  text-align: center;
+  letter-spacing: 2px;
+  color: white ; 
+  text-shadow: 3px 3px var(--bright-navy-blue);
+  height:auto ;
+}
+/* for logo - top desert national park end */
+
 /* Responsive CSS for mobile */
 @media (max-width: 768px) {
+  .logo-DNP{
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Sacramento', cursive;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white ; 
+    text-shadow: 3px 3px var(--bright-navy-blue);
+    height:auto ;
+    padding: 0;
+  }
   .navbar-list {
     flex-direction: column;
   }
