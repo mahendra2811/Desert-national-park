@@ -1,0 +1,71 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build directories
+build/
+dist/
+out/
+coverage/
+
+# Temporary files and backups
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.temp
+*.old
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS system files
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Asset directories (optional: exclude generated thumbnails)
+assets/images/thumbnails/
+
+# Environment variables and sensitive data
+.env
+.env.local
+.env.*.local
+
+# Cache directories
+.cache/
+*.cache
+
+# Miscellaneous
+*.lock
+*.log
+*.gz
+*.sql
+*.sqlite3
+*.pyc
+__pycache__/
+
+# Exclude user-uploaded content (optional, adjust as needed)
+uploads/
