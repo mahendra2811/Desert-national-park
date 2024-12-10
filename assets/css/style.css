@@ -1823,8 +1823,8 @@ address {
 
 /* Modal content (image) */
 .modal-content {
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 90%;
+  max-height: 90%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   animation: fadeIn 0.3s;
@@ -1862,7 +1862,7 @@ address {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 10px;
+  padding: 0px;
   color: #fff;
   font-size: 40px;
   font-weight: bold;
