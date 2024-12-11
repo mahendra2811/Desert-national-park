@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function openModal(figure) {
   const modal = document.getElementById("galleryModal");
   modal.style.display = "flex"; // Show the modal
-
+  console.log("clicked on image")
   // Set currentIndex and update modal content
   currentIndex = Array.from(galleryItems).indexOf(figure);
   if (currentIndex === -1) {
