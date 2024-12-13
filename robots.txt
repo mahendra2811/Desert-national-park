@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow unnecessary directories or files
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Sitemap location
+Sitemap: https://desertnationalparksafari.com/sitemap.xml
