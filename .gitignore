@@ -46,8 +46,7 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-# Asset directories (optional: exclude generated thumbnails)
-assets/images/thumbnails/
+
 
 # Environment variables and sensitive data
 .env

@@ -2,9 +2,9 @@ import os
 from PIL import Image
 
 # Define paths
-gallery_folder = "./assets/images/news"  # Path to your gallery images
-thumbnail_folder = "./assets/images/news/thumbnails"  # Path to save thumbnails
-thumbnail_size = (720, 720)  # Thumbnail size (width, height)
+gallery_folder = "./assets/images/testmonial"  # Path to your gallery images
+thumbnail_folder = "./assets/images/testmonial/thumbnails"  # Path to save thumbnails
+thumbnail_size = (1080, 1080)  # Thumbnail size (width, height)
 
 # Create the thumbnail folder if it doesn't exist
 if not os.path.exists(thumbnail_folder):
