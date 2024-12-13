@@ -98,8 +98,17 @@ function updateModalContent() {
 
   const modalImage = document.getElementById("modalImage");
   const caption = document.getElementById("caption");
+  const loader = document.getElementById("loader");
+
+  // Show loader and hide image
+  loader.style.display = "block";
+  modalImage.style.display = "none";
 
   modalImage.src = fullImagePath; // Load the full-size image
+  modalImage.onload = function () {
+    loader.style.display = "none"; // Hide loader
+    modalImage.style.display = "block"; // Show image
+  };
   caption.textContent = currentImage.alt || "No caption available"; // Set the caption
 }
 
