@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow unnecessary directories or files
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/images/
+Disallow: /private/ # Example if you have private directories
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
