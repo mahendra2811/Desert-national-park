@@ -27,6 +27,8 @@
   <a href="#features">Features</a> •
   <a href="#demo">Demo</a> •
   <a href="#installation">Installation</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#contact">Contact</a>
   <!-- <a href="#usage">Usage</a> • -->
   <!-- <a href="#contributing">Contributing</a> • -->
   <!-- <a href="#license">License</a> -->
@@ -71,6 +73,24 @@ To run this project locally, follow these steps:
     ```sh
     npm start
     ```
+
+## Tech Stack
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Version Control**: Git, GitHub
+- **Deployment**: Netlify, Heroku
+- **APIs**: Google Maps API for interactive maps
+- **Other Tools**: Webpack, Babel, ESLint
+
+## Contact
+For any inquiries or support, please contact Radhe Shyam:
+- **Email**: radhe@example.com
+- **Phone**: +91-1234567890
+- **Instagram**: [@radhe_shyam](https://instagram.com/radhe_shyam)
+- **Facebook**: [Radhe Shyam](https://facebook.com/radhe_shyam)
+- **Twitter**: [@radhe_shyam](https://twitter.com/radhe_shyam)
+- **YouTube**: [Radhe Shyam](https://youtube.com/radhe_shyam)
 
 <!-- ## Usage
 Provide instructions and examples for using the project. -->
