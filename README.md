@@ -29,9 +29,9 @@
   <a href="#installation">Installation</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#contact">Contact</a>
-  <!-- <a href="#usage">Usage</a> • -->
-  <!-- <a href="#contributing">Contributing</a> • -->
-  <!-- <a href="#license">License</a> -->
+  <a href="#usage">Usage</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
 </p>
 
 ---
@@ -92,11 +92,11 @@ For any inquiries or support, please contact Radhe Shyam:
 - **Twitter**: [@radhe_shyam](https://twitter.com/radhe_shyam)
 - **YouTube**: [Radhe Shyam](https://youtube.com/radhe_shyam)
 
-<!-- ## Usage
-Provide instructions and examples for using the project. -->
+## Usage
+Provide instructions and examples for using the project.
 
-<!-- ## Contributing
-Contributions are welcome! Please read the contributing guidelines first. -->
+## Contributing
+Contributions are welcome! Please read the contributing guidelines first.
 
-<!-- ## License
-This project is licensed under the MIT License - see the LICENSE file for details. -->
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
