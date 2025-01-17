@@ -76,10 +76,8 @@ To run this project locally, follow these steps:
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
 - **Version Control**: Git, GitHub
-- **Deployment**: Netlify, Heroku
+- **Deployment**: Netlify
 - **APIs**: Google Maps API for interactive maps
 - **Other Tools**: Webpack, Babel, ESLint
 
