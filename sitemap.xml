@@ -1,65 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Updated Sitemap -->
-
-<url>
-  <loc>https://desertnationalparksafari.com/</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/about</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/dnp</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/destination</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/mammals</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/reptiles</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/birds</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/gallery</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/gib</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/contact</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://desertnationalparksafari.com/packages</loc>
-  <lastmod>2024-12-11T11:33:40+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://desertnationalparksafari.com/</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/about.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/DNP.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/Destination.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/Mamels.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/Reptiles.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/Birds.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/gallery.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/GIB.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/Contact.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/BookNow.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/packages.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/privacy.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://desertnationalparksafari.com/faq.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
