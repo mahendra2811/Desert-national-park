@@ -6,16 +6,11 @@
  * copyright 2023 mahendra singh puniya
  */
 
-
-
-
-
 /*-----------------------------------*\
  * #CUSTOM PROPERTY
 \*-----------------------------------*/
 
 :root {
-
   /**
    * colors
    */
@@ -39,8 +34,8 @@
    * typography
    */
 
-  --ff-poppins: "Poppins", sans-serif;
-  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-poppins: 'Poppins', sans-serif;
+  --ff-montserrat: 'Montserrat', sans-serif;
 
   --fs-1: calc(20px + 3.5vw);
   --fs-2: calc(18px + 1.6vw);
@@ -74,12 +69,7 @@
 
   --radius-15: 15px;
   --radius-25: 25px;
-
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #RESET
@@ -139,10 +129,6 @@ body {
   background: var(--white);
 }
 
-
-
-
-
 /*-----------------------------------*\
  * #REUSED STYLE
 \*-----------------------------------*/
@@ -159,7 +145,6 @@ body {
   padding: var(--padding, 8px 18px);
   border: var(--border-width, 2px) solid transparent;
   transition: var(--transition);
-
 }
 
 .btn-primary {
@@ -180,7 +165,6 @@ body {
   border-color: var(--bright-navy-blue);
   text-align: center;
   align-content: center;
-
 }
 
 .btn-morePhoto:is(:hover, :focus) {
@@ -235,7 +219,6 @@ body {
   margin-bottom: 15px;
   /* margin-left: auto; */
   /* margin-right: auto; */
-
 }
 
 .section-text {
@@ -247,10 +230,6 @@ body {
   color: var(--black-coral);
   font-size: var(--fs-5);
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #HEADER
@@ -441,11 +420,8 @@ body {
 }
 
 .logotext {
-
   margin: auto;
   color: white;
-  
-
 }
 
 /*  */
@@ -499,9 +475,8 @@ body {
   color: var(--bright-navy-blue);
 }
 
-
 /* for logo - top desert national park start  */
-.logo-DNP{
+.logo-DNP {
   position: absolute;
   top: auto;
   left: 50%;
@@ -511,15 +486,15 @@ body {
   /* font-weight: 600; */
   text-align: center;
   letter-spacing: 2px;
-  color: white ; 
+  color: white;
   text-shadow: 3px 3px var(--bright-navy-blue);
-  height:auto ;
+  height: auto;
 }
 /* for logo - top desert national park end */
 
 /* Responsive CSS for mobile */
 @media (max-width: 768px) {
-  .logo-DNP{
+  .logo-DNP {
     position: absolute;
     top: auto;
     left: 50%;
@@ -528,31 +503,30 @@ body {
     font-size: 13px;
     text-align: center;
     letter-spacing: 2px;
-    color: white ; 
+    color: white;
     text-shadow: 3px 3px var(--bright-navy-blue);
-    height:auto ;
+    height: auto;
     padding: 0;
   }
   .navbar-list {
     flex-direction: column;
   }
-  
+
   .navbar-link {
     padding: 15px 20px;
   }
-  
+
   .dropdown .dropdown-menu {
     /* border: 1px */
     position: static;
     display: none;
     box-shadow: none;
   }
-  
+
   .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
-
 
 /* dropdown feature end  */
 
@@ -562,7 +536,7 @@ body {
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
-  -webkit-sticky;
+  position: -webkit-sticky;
   bottom: 18px;
   position: fixed;
   left: 14px;
@@ -576,7 +550,7 @@ body {
   height: 5rem;
   min-width: 5rem;
   background-color: #54c151;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, .18);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18);
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
   padding: 0.25rem;
@@ -603,11 +577,8 @@ body {
   }
   70% {
     transform: scale(1.2);
-    box-shadow: 
-      0 0 0 10px rgba(84, 193, 81, 0),
-      0 0 0 20px rgba(84, 193, 81, 0.4),
-      0 0 0 30px rgba(84, 193, 81, 0.2),
-      0 0 0 40px rgba(84, 193, 81, 0); /* Adicionado degradê com distanciamento */
+    box-shadow: 0 0 0 10px rgba(84, 193, 81, 0), 0 0 0 20px rgba(84, 193, 81, 0.4),
+      0 0 0 30px rgba(84, 193, 81, 0.2), 0 0 0 40px rgba(84, 193, 81, 0); /* Adicionado degradê com distanciamento */
     border-radius: 50%; /* Adicionado para manter o formato circular */
   }
   100% {
@@ -623,8 +594,6 @@ body {
 }
 
 /* whatsapp fixed css end   */
-
-
 
 /*-----------------------------------*\
  * #HERO
@@ -661,10 +630,6 @@ body {
   align-items: center;
   gap: 10px;
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #TOUR SEARCH
@@ -718,7 +683,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 
 .about-list {
@@ -749,11 +713,6 @@ body {
   /* margin-left: 1rem; */
 }
 
-
-
-
-
-
 /*-----------------------------------*\
  * #POPULAR
 \*-----------------------------------*/
@@ -763,7 +722,7 @@ body {
 }
 
 .popular-list,
-.popular-list>li:not(:last-child) {
+.popular-list > li:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -794,7 +753,6 @@ body {
   padding: 20px;
 }
 
-
 .popular-card .card-rating {
   background: var(--bright-navy-blue);
   color: var(--white);
@@ -821,17 +779,13 @@ body {
   margin-bottom: 5px;
 }
 
-.popular-card :is(.card-subtitle, .card-title)>a {
+.popular-card :is(.card-subtitle, .card-title) > a {
   color: inherit;
 }
 
 .popular .btn {
   margin-inline: auto;
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #PACKAGE
@@ -845,7 +799,7 @@ body {
   margin-bottom: 40px;
 }
 
-.package-list>li:not(:last-child) {
+.package-list > li:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -895,7 +849,7 @@ body {
 }
 
 .card-meta-item:not(:last-child)::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 4px;
   right: -1px;
@@ -914,7 +868,7 @@ body {
   font-size: var(--fs-8);
 }
 
-.meta-box>ion-icon {
+.meta-box > ion-icon {
   color: var(--bright-navy-blue);
   font-size: 13px;
 }
@@ -967,9 +921,6 @@ body {
   margin-inline: auto;
 }
 
-
-
-
 /*-----------------------------------*\
  * #GALLERY
 \*-----------------------------------*/
@@ -979,7 +930,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 
 .gallery-list {
@@ -1005,10 +955,6 @@ body {
   object-fit: cover;
 }
 
-
-
-
-
 /*-----------------------------------*\
  * #CTA
 \*-----------------------------------*/
@@ -1026,14 +972,9 @@ body {
   font-size: var(--fs-5);
 }
 
-
-
-
-
 /*-----------------------------------*\
  * #FOOTER
 \*-----------------------------------*/
-
 
 /* for my footer link mahi start */
 
@@ -1045,7 +986,7 @@ body {
 
 .footer-links li {
   display: inline;
-  margin:  2px;
+  margin: 2px;
 }
 
 .footer-links a {
@@ -1096,7 +1037,7 @@ body {
 }
 
 .contact-title::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -1180,12 +1121,12 @@ address {
   gap: 21px;
 }
 
-.footer-bottom-list>li {
+.footer-bottom-list > li {
   position: relative;
 }
 
-.footer-bottom-list>li:not(:last-child)::after {
-  content: "";
+.footer-bottom-list > li:not(:last-child)::after {
+  content: '';
   position: absolute;
   top: 3px;
   right: -10px;
@@ -1203,10 +1144,6 @@ address {
 .footer-bottom-link:is(:hover, :focus) {
   color: var(--white);
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #GO TO TOP
@@ -1241,30 +1178,26 @@ address {
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----------------------------------*\
  * #MEDIA QUERIES
 \*-----------------------------------*/
 
+/**
+ * responsive for smaller than 580px screen (mobile devices)
+ */
+
+@media (max-width: 579px) {
+  /* Hide the Book Now button in the header for mobile view */
+  .header-bottom .btn-primary {
+    display: none;
+  }
+}
 
 /**
  * responsive for larger than 580px screen
  */
 
 @media (min-width: 580px) {
-
   /**
    * REUSED STYLE
    */
@@ -1292,8 +1225,6 @@ address {
   .card-text {
     --fs-5: 15px;
   }
-
-
 
   /**
    * HEADER
@@ -1324,8 +1255,6 @@ address {
     --padding: 6px 20px;
   }
 
-
-
   /**
    * HERO
    */
@@ -1342,8 +1271,6 @@ address {
   .btn-group {
     gap: 20px;
   }
-
-
 
   /**
    * TOUR SEARCH
@@ -1369,8 +1296,6 @@ address {
     margin-top: 20px;
   }
 
-
-
   /**
    * POPULAR
    */
@@ -1378,8 +1303,6 @@ address {
   .popular-card .card-content {
     right: auto;
   }
-
-
 
   /**
    * FOOTER
@@ -1406,34 +1329,24 @@ address {
   .footer-bottom-list {
     justify-content: flex-end;
   }
-
 }
-
-
-
-
 
 /**
  * responsive for larger than 768px screen
  */
 
 @media (min-width: 768px) {
-
   /**
    * CUSTOM PROPERTY
    */
 
   :root {
-
     /**
      * typography
      */
 
     --fs-5: 15px;
-
   }
-
-
 
   /**
    * REUSED STYLE
@@ -1447,8 +1360,6 @@ address {
     max-width: 60ch;
     margin-inline: auto;
   }
-
-
 
   /**
    * HEADER
@@ -1471,8 +1382,6 @@ address {
     gap: 10px;
   }
 
-
-
   /**
    * POPULAR
    */
@@ -1484,15 +1393,13 @@ address {
     margin-bottom: 50px;
   }
 
-  .popular-list>li:not(:last-child) {
+  .popular-list > li:not(:last-child) {
     margin-bottom: 0;
   }
 
   .popular-card .card-content {
     right: 20px;
   }
-
-
 
   /**
    * PACKAGE
@@ -1502,7 +1409,7 @@ address {
     margin-bottom: 50px;
   }
 
-  .package-list>li:not(:last-child) {
+  .package-list > li:not(:last-child) {
     margin-bottom: 40px;
   }
 
@@ -1528,8 +1435,6 @@ address {
     margin-bottom: 15px;
   }
 
-
-
   /**
    * GALLERY
    */
@@ -1546,8 +1451,6 @@ address {
   .gallery-image {
     border-radius: var(--radius-25);
   }
-
-
 
   /**
    * CTA
@@ -1567,8 +1470,6 @@ address {
     margin-inline: 0;
   }
 
-
-
   /**
    * FOOTER
    */
@@ -1587,19 +1488,13 @@ address {
   .footer-form .btn {
     width: max-content;
   }
-
 }
-
-
-
-
 
 /**
  * responsive for larger than 992px screen
  */
 
 @media (min-width: 992px) {
-
   /**
    * REUSED STYLE
    */
@@ -1607,8 +1502,6 @@ address {
   .container {
     max-width: 1050px;
   }
-
-
 
   /**
    * HEADER
@@ -1683,8 +1576,6 @@ address {
     display: none;
   }
 
-
-
   /**
    * HERO
    */
@@ -1692,8 +1583,6 @@ address {
   .hero .container {
     max-width: 740px;
   }
-
-
 
   /**
    * TOUR SEARCH
@@ -1709,8 +1598,6 @@ address {
     margin-top: 0;
   }
 
-
-
   /**
    * POPULAR
    */
@@ -1718,8 +1605,6 @@ address {
   .popular-list {
     grid-template-columns: repeat(3, 1fr);
   }
-
-
 
   /**
    * PACKAGE
@@ -1729,11 +1614,9 @@ address {
     --fs-8: 13px;
   }
 
-  .meta-box>ion-icon {
+  .meta-box > ion-icon {
     font-size: 15px;
   }
-
-
 
   /**
    * CTA 
@@ -1742,8 +1625,6 @@ address {
   .cta .section-title {
     max-width: 25ch;
   }
-
-
 
   /**
    * FOOTER
@@ -1765,34 +1646,24 @@ address {
   .footer-form .btn {
     width: 100%;
   }
-
 }
-
-
-
-
 
 /**
  * responsive for larger than 1200px screen
  */
 
 @media (min-width: 1200px) {
-
   /**
    * CUSTOM PROPERTY
    */
 
   :root {
-
     /**
      * spacing
      */
 
     --section-padding: 100px;
-
   }
-
-
 
   /**
    * REUSED STYLE
@@ -1801,7 +1672,6 @@ address {
   .container {
     max-width: 1180px;
   }
-
 }
 
 /* Modal container */
