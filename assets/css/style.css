@@ -487,7 +487,7 @@ body {
   text-align: center;
   letter-spacing: 2px;
   color: white;
-  text-shadow: 3px 3px var(--bright-navy-blue);
+  /* text-shadow: 3px 3px var(--bright-navy-blue); */
   height: auto;
 }
 /* for logo - top desert national park end */
@@ -500,11 +500,11 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Sacramento', cursive;
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
     letter-spacing: 2px;
     color: white;
-    text-shadow: 3px 3px var(--bright-navy-blue);
+    /* text-shadow: 3px 3px var(--bright-navy-blue); */
     height: auto;
     padding: 0;
   }
