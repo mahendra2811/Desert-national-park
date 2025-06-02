@@ -10,15 +10,15 @@ htmlFiles.forEach((file) => {
   const filePath = path.join(distDir, file);
   let content = fs.readFileSync(filePath, 'utf8');
 
-  // Replace the style.css path
+  // Replace the style.css path using regex to handle different tag formats
   content = content.replace(
-    '<link rel="stylesheet" href="./assets/css/style.css">',
+    /<link\s+rel="stylesheet"\s+href="\.\/assets\/css\/style\.css"[^>]*>/g,
     '<link rel="stylesheet" href="./style.css">'
   );
 
-  // Replace the testimonial.css path
+  // Replace the testimonial.css path using regex to handle different tag formats
   content = content.replace(
-    '<link rel="stylesheet" href="./assets/css/testimonial.css">',
+    /<link\s+rel="stylesheet"\s+href="\.\/assets\/css\/testimonial\.css"[^>]*>/g,
     '<link rel="stylesheet" href="./testimonial.css">'
   );
 
