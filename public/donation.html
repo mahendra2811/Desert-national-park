@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support Radheshyam Bishnoi's Family - Desert National Park Safari</title>
+    <meta
+      name="description"
+      content="Support the family of Radheshyam Bishnoi, wildlife conservationist who lost his life protecting the Great Indian Bustard and other wildlife in the Thar Desert."
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/favicon-gib.svg" type="image/svg+xml" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Support Radheshyam Bishnoi's Family - Desert National Park Safari"
+    />
+    <meta
+      property="og:description"
+      content="Support the family of Radheshyam Bishnoi, wildlife conservationist who lost his life protecting the Great Indian Bustard and other wildlife in the Thar Desert."
+    />
+    <meta property="og:url" content="https://desertnationalparksafari.com/donation" />
+    <meta
+      property="og:image"
+      content="https://desertnationalparksafari.com/assets/images/thumbnails/radhe-dnp-guide.webp"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@RadheBishnoi__" />
+    <meta
+      name="twitter:title"
+      content="Support Radheshyam Bishnoi's Family - Desert National Park Safari"
+    />
+    <meta
+      name="twitter:description"
+      content="Support the family of Radheshyam Bishnoi, wildlife conservationist who lost his life protecting the Great Indian Bustard and other wildlife in the Thar Desert."
+    />
+    <meta
+      name="twitter:image"
+      content="https://desertnationalparksafari.com/assets/images/thumbnails/radhe-dnp-guide.webp"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- GOOGLE META TAG START -->
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6987276683420538"
+      crossorigin="anonymous"
+    ></script>
+    <!-- GOOGLE META TAG END -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y60F5KJQ4Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y60F5KJQ4Y');
+    </script>
+
+    <!-- table and QR code style -->
+    <style>
+      .info-table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        margin-bottom: 30px;
+      }
+
+      .info-table tr {
+        transition: background-color 0.3s;
+      }
+
+      .info-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      .info-table tr:hover {
+        background-color: #ddd;
+      }
+
+      .info-table td {
+        padding: 15px;
+        border: 1px solid #ddd;
+      }
+
+      .info-table td:first-child {
+        font-weight: bold;
+        width: 30%;
+      }
+
+      .info-table td a {
+        text-decoration: none;
+        color: var(--bright-navy-blue);
+      }
+
+      .qr-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0;
+      }
+
+      .qr-code {
+        max-width: 250px;
+        margin: 20px 0;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: none;
+      }
+
+      .qr-code.active {
+        display: block;
+      }
+
+      .donation-section {
+        padding: 50px 0;
+      }
+
+      .donation-section h2 {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .donation-section p {
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+
+      .contact-buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 30px 0;
+      }
+
+      .contact-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 25px;
+        border-radius: 50px;
+        background-color: var(--bright-navy-blue);
+        color: white;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .contact-btn:hover {
+        background-color: var(--yale-blue);
+        transform: translateY(-3px);
+      }
+
+      .contact-btn ion-icon {
+        font-size: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .contact-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-top">
+        <div class="container">
+          <a href="tel:+91 8094518231" class="helpline-box">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <div class="wrapper">
+              <p class="helpline-title">For Further Inquires :</p>
+
+              <p class="helpline-number">+91 8094518231</p>
+            </div>
+          </a>
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo-m-RS.png" alt="Desert National Park Safari Logo" />
+          </a>
+
+          <div class="header-btn-group">
+            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="container">
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <a href="./index.html#home" class="logo">
+                <img
+                  src="./assets/images/logo-m-rs_black.png"
+                  alt="Desert National Park Safari by Radheshyam Bishnoi logo"
+                />
+              </a>
+
+              <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="navbar-list">
+              <li>
+                <a href="./index.html#home" class="navbar-link" data-nav-link>home</a>
+              </li>
+
+              <li>
+                <a href="./about.html" class="navbar-link" data-nav-link>about me</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="navbar-link" data-nav-link>destination</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./DNP.html"> <b>Desert National Park</b></a>
+                  </li>
+                  <hr />
+                  <li>
+                    <a href="./Destination.html"> <b>Other destination</b></a>
+                  </li>
+                </ul>
+              </li>
+
+              <li></li>
+
+              <li>
+                <a href="./gallery.html" class="navbar-link" data-nav-link>gallery</a>
+              </li>
+              <li>
+                <a href="./GIB.html" class="navbar-link" data-nav-link>GIB</a>
+              </li>
+
+              <li>
+                <a href="./memories.html" class="navbar-link" data-nav-link>Memories</a>
+              </li>
+
+              <li>
+                <a href="./Contact.html" class="navbar-link" data-nav-link>contact me</a>
+              </li>
+
+              <li>
+                <a href="./donation.html" class="navbar-link" data-nav-link>donation</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="./BookNow.html" target="_blank">
+            <button class="btn btn-primary">Book Now</button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- for whatsapp float icon start  -->
+
+        <a
+          class="whapp animated pulse"
+          href="https://wa.me/918094518231?text=Hello,%20I'm%20interested%20in%20donating%20to%20support%20Radheshyam%20Bishnoi's%20family"
+          target="_blank"
+        >
+          <div class="whapp-btn">
+            <img
+              src="https://uploads-ssl.webflow.com/62b5ca109278e030a060e942/62bf28776d90ec6fa2bec0f4_iconmonstr-whatsapp-1-240.png"
+              alt="WhatsApp contact icon for donation inquiries about Radheshyam Bishnoi's family"
+              width="50"
+              height="50"
+              loading="lazy"
+            />
+          </div>
+        </a>
+        <!-- for whatsapp float icon end   -->
+
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="hero"
+          id="home"
+          style="background-image: url(./assets/images/donation_banner.png)"
+        >
+          <div class="container">
+            <h2 class="h1 hero-title">In Memory of Radhe</h2>
+
+            <p class="hero-text">
+              Support the family of a dedicated wildlife conservationist who lost his life
+              protecting the Thar Desert's wildlife.
+            </p>
+
+            <div class="btn-group">
+              <a href="#bank-details">
+                <button class="btn btn-primary">Bank Transfer</button>
+              </a>
+              <a href="#upi-payment">
+                <button class="btn btn-secondary">UPI Payment</button>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Donation Information Section -->
+        <section class="donation-section" id="donation-info">
+          <div class="container">
+            <h2 class="h2 section-title">Why Your Support Matters</h2>
+
+            <p>
+              Radheshyam Bishnoi, a passionate 28-year-old wildlife conservationist from the Bishnoi
+              community, tragically lost his life on May 24, 2023. He died in a road accident while
+              en route to prevent deer poaching in the Thar Desert. Three other conservationists
+              also lost their lives in this devastating accident.
+            </p>
+
+            <p>
+              Throughout his short but impactful life, Radheshyam dedicated himself to protecting
+              endangered species, particularly the critically endangered Great Indian Bustard. He
+              built water reservoirs for wildlife, rescued injured animals, and tirelessly fought
+              against poaching in the desert region.
+            </p>
+
+            <p>
+              Your generous contribution will directly support Radheshyam's family during this
+              extremely difficult time. By donating, you help honor the legacy of a remarkable
+              conservationist who gave his life protecting India's precious wildlife.
+            </p>
+          </div>
+        </section>
+
+        <!-- Bank Details Section -->
+        <section class="donation-section" id="bank-details">
+          <div class="container">
+            <h2 class="h2 section-title">Bank Transfer Details</h2>
+
+            <!-- <p style="text-align: center; margin-bottom: 20px">
+              Please use either of the following accounts for donations:
+            </p> -->
+
+            <!-- <h3 style="text-align: center; margin-bottom: 15px">NGO Account (Current Account)</h3>
+            <table class="info-table">
+              <tr>
+                <td>Account Holder Name</td>
+                <td>Jambhsar Hitkarani Sansathan</td>
+              </tr>
+              <tr>
+                <td>Bank Name</td>
+                <td>HDFC Bank</td>
+              </tr>
+              <tr>
+                <td>Account Number</td>
+                <td>5020 0092 4267 51</td>
+              </tr>
+              <tr>
+                <td>IFSC Code</td>
+                <td>HDFC0006542</td>
+              </tr>
+              <tr>
+                <td>Account Type</td>
+                <td>Current Account</td>
+              </tr>
+            </table> -->
+
+            <h3 style="text-align: center; margin: 30px 0 15px">Family Account</h3>
+            <table class="info-table">
+              <tr>
+                <td>Account Holder Name</td>
+                <td>Nirma w/o Radhe Shyam</td>
+              </tr>
+              <tr>
+                <td>Bank Name</td>
+                <td>State Bank of India</td>
+              </tr>
+              <tr>
+                <td>Account Number</td>
+                <td>39185005645</td>
+              </tr>
+              <tr>
+                <td>IFSC Code</td>
+                <td>SBIN0031373</td>
+              </tr>
+              <tr>
+                <td>UPI id</td>
+                <td>8094518231@SBI</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <!-- UPI Payment Section -->
+        <section class="donation-section" id="upi-payment">
+          <div class="container">
+            <h2 class="h2 section-title">UPI Payment</h2>
+
+            <div class="qr-container">
+              <p style="font-size: 18px">Pay directly using UPI: <strong>8094518231@SBI</strong></p>
+
+              <button class="btn btn-primary" id="show-qr-btn" onclick="toggleQRCode()">
+                Show UPI Details
+              </button>
+
+              <div class="qr-code" id="qr-code">
+                <p style="text-align: center; font-size: 18px; font-weight: bold; margin: 20px 0">
+                  UPI ID: 8094518231@SBI
+                </p>
+                <p style="text-align: center">
+                  Use this UPI ID in any payment app to donate directly.
+                </p>
+              </div>
+            </div>
+
+            <p style="text-align: center">
+              Use any UPI app like Google Pay, PhonePe, Paytm, or BHIM to make a direct payment.
+            </p>
+          </div>
+        </section>
+
+        <!-- Contact for Donation Section -->
+        <section class="donation-section">
+          <div class="container">
+            <h2 class="h2 section-title">Contact for More Information</h2>
+
+            <p style="text-align: center">
+              For any questions about donations or to discuss other ways to support the family and
+              continue Radheshyam's conservation legacy, please contact:
+            </p>
+
+            <div class="contact-buttons">
+              <a href="tel:+918094518231" class="contact-btn">
+                <ion-icon name="call-outline"></ion-icon>
+                Call
+              </a>
+
+              <a
+                href="https://wa.me/918094518231?text=Hello,%20I'm%20interested%20in%20donating%20to%20support%20Radheshyam%20Bishnoi's%20family."
+                class="contact-btn"
+                target="_blank"
+              >
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                WhatsApp
+              </a>
+
+              <a
+                href="mailto:radhepemani@gmail.com?subject=Donation%20Inquiry%20for%20Radheshyam's%20Family&body=Hello,%20I'm%20interested%20in%20donating%20to%20support%20Radheshyam%20Bishnoi's%20family."
+                class="contact-btn"
+              >
+                <ion-icon name="mail-outline"></ion-icon>
+                Email
+              </a>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#home" class="logo">
+              <img
+                src="./assets/images/m-logo.png"
+                alt="Desert National Park Safari by Radheshyam Bishnoi logo"
+              />
+            </a>
+
+            <p class="footer-text">
+              Radheshyam Bishnoi's dedication as a Great Indian Bustard conservator in the Thar
+              Desert will always be remembered. His legacy lives on through our continued
+              conservation efforts.
+            </p>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="contact-title">Contact Us</h4>
+
+            <ul class="social-list">
+              <li>
+                <a href="https://www.facebook.com/radheshyam.pemani" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://wa.me/918094518231?text=hello%20radheshyam%20I%27m%20interested%20to%20visit%20national%20desert%20park%20and%20many%20more%20other%20tourist%20places%20"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/radheshyam_bishnoi_/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.youtube.com/@radheshyambishnoi" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/RadheBishnoi__" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/radheshyam-bishnoi-a4a6a0219/"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <a href="tel:+918094518231" class="contact-link">+91 8094518231</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <a href="mailto:radhepemani@gmail.com" class="contact-link"
+                  >radhepemani@gmail.com</a
+                >
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>
+                  Villege-Dholiya , near Desert National Park Jaislmear, Rajasthan (India)
+                </address>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-links" style="margin: 0.4%">
+            <ul>
+              <li>
+                <a href="./index.html" class="footer-link">Home</a>
+              </li>
+
+              <li>
+                <a href="./about.html" class="footer-link">About</a>
+              </li>
+
+              <li>
+                <a href="./Destination.html" class="footer-link">Destinations</a>
+              </li>
+
+              <li>
+                <a href="./packages.html" class="footer-link">Packages</a>
+              </li>
+
+              <li>
+                <a href="./gallery.html" class="footer-link">Gallery</a>
+              </li>
+
+              <li>
+                <a href="./Contact.html" class="footer-link">Contact Us</a>
+              </li>
+
+              <li>
+                <a href="./donation.html" class="footer-link">Donation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2023
+            <a href="https://desertnationalparksafari.com">Desert National Park Safari</a>. All
+            Rights Reserved
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="./privacy.html" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="./faq.html" class="footer-bottom-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="./terms-conditions.html" class="footer-bottom-link">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- QR Code Toggle Script -->
+    <script>
+      function toggleQRCode() {
+        const qrCode = document.getElementById('qr-code');
+        const showQrBtn = document.getElementById('show-qr-btn');
+
+        if (qrCode.classList.contains('active')) {
+          qrCode.classList.remove('active');
+          showQrBtn.textContent = 'Show UPI Details';
+        } else {
+          qrCode.classList.add('active');
+          showQrBtn.textContent = 'Hide UPI Details';
+        }
+      }
+    </script>
+  </body>
+</html>

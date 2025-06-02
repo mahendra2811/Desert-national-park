@@ -1,0 +1,384 @@
+{
+  "main_images": [
+    {
+      "name": "about-home.jpg",
+      "path": "assets/images/about-home.jpg",
+      "alt_text": "Radheshyam Bishnoi, wildlife conservationist and Desert National Park guide, standing in the Thar Desert landscape"
+    },
+    {
+      "name": "contact-home.png",
+      "path": "assets/images/contact-home.png",
+      "alt_text": "Contact information display for Desert National Park Safari tours with Radheshyam Bishnoi in Jaisalmer"
+    },
+    {
+      "name": "favicon-m.png",
+      "path": "assets/images/favicon-m.png",
+      "alt_text": "Desert National Park Safari favicon logo"
+    },
+    {
+      "name": "favicon-n.jpeg",
+      "path": "assets/images/favicon-n.jpeg",
+      "alt_text": "Desert National Park Safari alternative favicon"
+    },
+    {
+      "name": "Gallery 3.jpeg",
+      "path": "assets/images/Gallery 3.jpeg",
+      "alt_text": "Wildlife photography from Desert National Park showcasing the natural beauty of Thar Desert"
+    },
+    {
+      "name": "hero-banner-1.jpg",
+      "path": "assets/images/hero-banner-1.jpg",
+      "alt_text": "Panoramic view of Desert National Park's golden sand dunes and sparse vegetation in Jaisalmer, Rajasthan"
+    },
+    {
+      "name": "hero-destination.jpg",
+      "path": "assets/images/hero-destination.jpg",
+      "alt_text": "Scenic landscape of Desert National Park showcasing the unique ecosystem of the Thar Desert"
+    },
+    {
+      "name": "hero-gallery.jpg",
+      "path": "assets/images/hero-gallery.jpg",
+      "alt_text": "Gallery showcase banner of wildlife photography from Desert National Park in Jaisalmer"
+    },
+    {
+      "name": "Home-banner (1).png",
+      "path": "assets/images/Home-banner (1).png",
+      "alt_text": "Main homepage banner for Desert National Park Safari featuring Radheshyam Bishnoi and the Thar Desert landscape"
+    },
+    {
+      "name": "logo-m-black-design.png",
+      "path": "assets/images/logo-m-black-design.png",
+      "alt_text": "Desert National Park Safari black logo design"
+    },
+    {
+      "name": "logo-m-black.png",
+      "path": "assets/images/logo-m-black.png",
+      "alt_text": "Desert National Park Safari black logo"
+    },
+    {
+      "name": "logo-m-rs_black.png",
+      "path": "assets/images/logo-m-rs_black.png",
+      "alt_text": "Radheshyam Bishnoi's Desert National Park Safari black logo"
+    },
+    {
+      "name": "logo-m-RS.png",
+      "path": "assets/images/logo-m-RS.png",
+      "alt_text": "Radheshyam Bishnoi's Desert National Park Safari colored logo"
+    },
+    {
+      "name": "logo-m-top.png",
+      "path": "assets/images/logo-m-top.png",
+      "alt_text": "Desert National Park Safari top header logo"
+    },
+    {
+      "name": "m-logo.png",
+      "path": "assets/images/m-logo.png",
+      "alt_text": "Desert National Park Safari main logo with Radheshyam Bishnoi branding"
+    },
+    {
+      "name": "radhe-dnp-home.png",
+      "path": "assets/images/radhe-dnp-home.png",
+      "alt_text": "Radheshyam Bishnoi, expert wildlife guide, at Desert National Park in Jaisalmer"
+    },
+    {
+      "name": "upi-qr-code.png",
+      "path": "assets/images/upi-qr-code.png",
+      "alt_text": "UPI QR code for booking Desert National Park Safari tours with Radheshyam Bishnoi"
+    }
+  ],
+  "gallery_images": [
+    {
+      "name": "m-gallery-1.jpg",
+      "path": "assets/images/m-gallery-1.jpg",
+      "alt_text": "Desert National Park landscape showcasing the golden sand dunes and sparse vegetation of the Thar Desert"
+    },
+    {
+      "name": "m-gallery-2.jpg",
+      "path": "assets/images/m-gallery-2.jpg",
+      "alt_text": "Wildlife photography from Desert National Park featuring native desert species in their natural habitat"
+    },
+    {
+      "name": "m-gallery-3.jpg",
+      "path": "assets/images/m-gallery-3.jpg",
+      "alt_text": "Scenic sunset view over the sand dunes of Desert National Park in Jaisalmer, Rajasthan"
+    },
+    {
+      "name": "m-gallery-4.avif",
+      "path": "assets/images/m-gallery-4.avif",
+      "alt_text": "Close-up wildlife photography of desert fauna in Desert National Park by Radheshyam Bishnoi"
+    },
+    {
+      "name": "m-gallery-5.jpg",
+      "path": "assets/images/m-gallery-5.jpg",
+      "alt_text": "Panoramic view of the Thar Desert ecosystem in Desert National Park, Jaisalmer"
+    }
+  ],
+  "package_images": [
+    {
+      "name": "m-package-1.jpg",
+      "path": "assets/images/m-package-1.jpg",
+      "alt_text": "Desert National Park Basic Plan Safari package featuring wildlife viewing in the Thar Desert"
+    },
+    {
+      "name": "m-package-2.jpg",
+      "path": "assets/images/m-package-2.jpg",
+      "alt_text": "Desert National Park Platinum Plan Safari package with premium wildlife viewing experience"
+    },
+    {
+      "name": "m-package-3.jpg",
+      "path": "assets/images/m-package-3.jpg",
+      "alt_text": "Desert National Park Safari package featuring cultural experiences and wildlife viewing"
+    },
+    {
+      "name": "m-package-4.jpeg",
+      "path": "assets/images/m-package-4.jpeg",
+      "alt_text": "Desert National Park Gold Plan Safari package with Great Indian Bustard sighting opportunities"
+    }
+  ],
+  "place_images": [
+    {
+      "name": "place-1.jpg",
+      "path": "assets/images/place-1.jpg",
+      "alt_text": "Wildlife Safari destination in Desert National Park featuring native desert animals"
+    },
+    {
+      "name": "place-2.jpg",
+      "path": "assets/images/place-2.jpg",
+      "alt_text": "Reptile Trails destination in Desert National Park showcasing desert reptile species"
+    },
+    {
+      "name": "place-3.jpeg",
+      "path": "assets/images/place-3.jpeg",
+      "alt_text": "Birding Safari destination in Desert National Park featuring diverse bird species including the Great Indian Bustard"
+    },
+    {
+      "name": "place-4.jpg",
+      "path": "assets/images/place-4.jpg",
+      "alt_text": "Scenic landscape destination in Desert National Park with unique rock formations and desert vegetation"
+    },
+    {
+      "name": "place-5.jpg",
+      "path": "assets/images/place-5.jpg",
+      "alt_text": "Cultural destination near Desert National Park featuring traditional Rajasthani village life"
+    },
+    {
+      "name": "place-6.jpg",
+      "path": "assets/images/place-6.jpg",
+      "alt_text": "Desert oasis destination in Desert National Park with water body and surrounding wildlife"
+    },
+    {
+      "name": "place-7.jpg",
+      "path": "assets/images/place-7.jpg",
+      "alt_text": "Sand dune destination in Desert National Park perfect for desert landscape photography"
+    },
+    {
+      "name": "place-8.jpg",
+      "path": "assets/images/place-8.jpg",
+      "alt_text": "Wildlife viewing point in Desert National Park with panoramic views of the Thar Desert"
+    }
+  ],
+  "great_indian_bustard": [
+    {
+      "name": "GIB-1.jpg",
+      "path": "assets/images/GIB-1.jpg",
+      "alt_text": "Great Indian Bustard (Ardeotis nigriceps) in Desert National Park Jaisalmer - endangered species conservation"
+    },
+    {
+      "name": "GIB-3.jpeg",
+      "path": "assets/images/GIB-3.jpeg",
+      "alt_text": "Great Indian Bustard sighting in Thar Desert - rare bird species guided tour with Radheshyam Bishnoi"
+    },
+    {
+      "name": "GIB-4.jpg",
+      "path": "assets/images/GIB-4.jpg",
+      "alt_text": "Great Indian Bustard in flight at Desert National Park - wildlife photography by Radheshyam Bishnoi"
+    }
+  ],
+  "wildlife_images": [
+    {
+      "name": "other-1.jpg",
+      "path": "assets/images/other-1.jpg",
+      "alt_text": "Macqueen's Bustard (Houbara Bustard) in Desert National Park, a rare bird species found in the Thar Desert"
+    },
+    {
+      "name": "other-2.jpg",
+      "path": "assets/images/other-2.jpg",
+      "alt_text": "Gazella bennettii (Indian gazelle) or Chinkara in its natural habitat at Desert National Park"
+    },
+    {
+      "name": "other-3.jpg",
+      "path": "assets/images/other-3.jpg",
+      "alt_text": "The Asiatic wildcat (Felis lybica ornata) spotted during a wildlife safari in Desert National Park"
+    },
+    {
+      "name": "other-6.jpg",
+      "path": "assets/images/other-6.jpg",
+      "alt_text": "The cinereous vulture (Aegypius monachus) soaring over Desert National Park in Jaisalmer"
+    },
+    {
+      "name": "other-7.jpg",
+      "path": "assets/images/other-7.jpg",
+      "alt_text": "Laggar Falcon (Falco jugger) perched on a branch in Desert National Park, Rajasthan"
+    },
+    {
+      "name": "other-8.jpg",
+      "path": "assets/images/other-8.jpg",
+      "alt_text": "Gazella bennettii (Indian gazelle) herd grazing in the grasslands of Desert National Park"
+    },
+    {
+      "name": "other-9.jpg",
+      "path": "assets/images/other-9.jpg",
+      "alt_text": "Macqueen's Bustard (Houbara Bustard) camouflaged in the desert vegetation of Desert National Park"
+    },
+    {
+      "name": "other-11.jpeg",
+      "path": "assets/images/other-11.jpeg",
+      "alt_text": "The blackbuck (Antilope cervicapra) with its distinctive spiral horns in Desert National Park"
+    },
+    {
+      "name": "other-12.jpeg",
+      "path": "assets/images/other-12.jpeg",
+      "alt_text": "The lappet-faced vulture or Nubian vulture (Torgos tracheliotos) rare sighting in Desert National Park"
+    }
+  ],
+  "self_images": [
+    {
+      "name": "self-1.jpg",
+      "path": "assets/images/self-1.jpg",
+      "alt_text": "Radheshyam Bishnoi, wildlife conservationist and Desert National Park guide, in the Thar Desert"
+    },
+    {
+      "name": "self-3.jpg",
+      "path": "assets/images/self-3.jpg",
+      "alt_text": "Radheshyam Bishnoi tracking wildlife in Desert National Park as part of his conservation efforts"
+    },
+    {
+      "name": "self-4.jpg",
+      "path": "assets/images/self-4.jpg",
+      "alt_text": "Radheshyam Bishnoi conducting a guided wildlife safari tour in Desert National Park, Jaisalmer"
+    },
+    {
+      "name": "self-5.jpg",
+      "path": "assets/images/self-5.jpg",
+      "alt_text": "Radheshyam Bishnoi observing Great Indian Bustard through binoculars in Desert National Park"
+    },
+    {
+      "name": "self-6.jpg",
+      "path": "assets/images/self-6.jpg",
+      "alt_text": "Radheshyam Bishnoi receiving conservation award for his work protecting the Great Indian Bustard"
+    },
+    {
+      "name": "self-7.jpg",
+      "path": "assets/images/self-7.jpg",
+      "alt_text": "Radheshyam Bishnoi with tourists on a guided Desert National Park safari tour in Jaisalmer"
+    },
+    {
+      "name": "self-8.jpg",
+      "path": "assets/images/self-8.jpg",
+      "alt_text": "Radheshyam Bishnoi documenting wildlife in Desert National Park for conservation research"
+    },
+    {
+      "name": "self-11.jpg",
+      "path": "assets/images/self-11.jpg",
+      "alt_text": "Radheshyam Bishnoi speaking at a conservation awareness event about the Great Indian Bustard"
+    },
+    {
+      "name": "self-12.jpg",
+      "path": "assets/images/self-12.jpg",
+      "alt_text": "Radheshyam Bishnoi with his team of wildlife guides and conservationists at Desert National Park"
+    }
+  ],
+  "birds": [
+    {
+      "name": "birds-3.jpeg",
+      "path": "assets/images/birds/birds-3.jpeg",
+      "alt_text": "Rare bird species spotted during bird watching safari in Desert National Park, Jaisalmer"
+    },
+    {
+      "name": "birds-5.jpg",
+      "path": "assets/images/birds/birds-5.jpg",
+      "alt_text": "Desert bird species in its natural habitat at Desert National Park, captured during birding safari"
+    },
+    {
+      "name": "birds-31.jpg",
+      "path": "assets/images/birds/birds-31.jpg",
+      "alt_text": "Migratory bird species visiting Desert National Park during winter season in Rajasthan"
+    }
+  ],
+  "desert_national_park": [
+    {
+      "name": "DNP-4.JPG",
+      "path": "assets/images/DNP/DNP-4.JPG",
+      "alt_text": "Scenic landscape of Desert National Park showcasing the unique Thar Desert ecosystem"
+    },
+    {
+      "name": "DNP-8.JPG",
+      "path": "assets/images/DNP/DNP-8.JPG",
+      "alt_text": "Wildlife habitat in Desert National Park with characteristic desert vegetation and terrain"
+    },
+    {
+      "name": "DNP-9.jpg",
+      "path": "assets/images/DNP/DNP-9.jpg",
+      "alt_text": "Panoramic view of Desert National Park's diverse landscape featuring sand dunes and scrubland"
+    }
+  ],
+  "memories": [
+    {
+      "name": "01.jpg",
+      "path": "assets/images/memories/01.jpg",
+      "alt_text": "Radheshyam Bishnoi with a rescued Great Indian Bustard, showcasing his dedication as the Godawan Man of India"
+    },
+    {
+      "name": "02.PNG",
+      "path": "assets/images/memories/02.PNG",
+      "alt_text": "Radheshyam monitoring Great Indian Bustard habitat in the Thar Desert, documenting critical conservation data"
+    },
+    {
+      "name": "03.JPG",
+      "path": "assets/images/memories/03.JPG",
+      "alt_text": "Radheshyam creating a water reservoir in the desert, one of over 100 he established for wildlife"
+    },
+    {
+      "name": "04.JPG",
+      "path": "assets/images/memories/04.JPG",
+      "alt_text": "Radheshyam receiving the Sanctuary Wildlife Service Award for his conservation efforts"
+    },
+    {
+      "name": "05.PNG",
+      "path": "assets/images/memories/05.PNG",
+      "alt_text": "Radheshyam with local community members, mobilizing support for Great Indian Bustard conservation"
+    }
+  ],
+  "reptiles": [
+    {
+      "name": "Reptile_home_.jpg",
+      "path": "assets/images/reptiles/Reptile_home_.jpg",
+      "alt_text": "Desert reptile species featured on the Reptile Trails safari tour in Desert National Park"
+    },
+    {
+      "name": "reptile-1.jpg",
+      "path": "assets/images/reptiles/reptile-1.jpg",
+      "alt_text": "Saw-scaled Viper (Echis carinatus) in its natural habitat in Desert National Park, Jaisalmer"
+    },
+    {
+      "name": "reptile-2.jpeg",
+      "path": "assets/images/reptiles/reptile-2.jpeg",
+      "alt_text": "Desert Monitor Lizard (Varanus griseus) basking in the sun at Desert National Park"
+    },
+    {
+      "name": "reptile-3.jpeg",
+      "path": "assets/images/reptiles/reptile-3.jpeg",
+      "alt_text": "Indian Spiny-tailed Lizard (Uromastyx hardwickii) endemic to the Thar Desert region"
+    },
+    {
+      "name": "reptile-4.jpeg",
+      "path": "assets/images/reptiles/reptile-4.jpeg",
+      "alt_text": "Desert Sand Boa (Eryx johnii) camouflaged in the sandy terrain of Desert National Park"
+    },
+    {
+      "name": "reptile-5.jpeg",
+      "path": "assets/images/reptiles/reptile-5.jpeg",
+      "alt_text": "Thar Desert Gecko species spotted during Reptile Trails safari in Desert National Park"
+    }
+  ]
+}
