@@ -1,70 +1,83 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
 # Logs
-logs/
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
+lerna-debug.log*
 
 # Dependency directories
 node_modules/
 jspm_packages/
+bower_components/
 
-# Build directories
-build/
+# Build outputs
 dist/
+build/
 out/
-coverage/
+.next/
+.nuxt/
+.cache/
+public/dist/
 
-# Temporary files and backups
-.DS_Store
-Thumbs.db
-*.swp
-*.bak
-*.tmp
-*.temp
-*.old
-
-# Editor and IDE configurations
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# MacOS system files
-._*
-.AppleDouble
-.LSOverride
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
-
-
-
-# Environment variables and sensitive data
+# Environment files
 .env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env.*.local
 
-# Cache directories
-.cache/
-*.cache
+# Debug files
+.debug
+debug.log
 
-# Miscellaneous
-*.lock
-*.log
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+tmp/
+
+# Package files
+*.tgz
 *.gz
-*.sql
-*.sqlite3
-*.pyc
-__pycache__/
+*.zip
 
-# Exclude user-uploaded content (optional, adjust as needed)
-uploads/
+# Local development files
+.local/
+local.properties
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Specific to this project
+.rough/
