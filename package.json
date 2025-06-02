@@ -7,7 +7,7 @@
     "build": "npm run build:css && npm run build:testimonial && npm run build:copy && npm run update-paths",
     "build:css": "tailwindcss -i ./assets/css/style.css -o ./dist/style.css --minify",
     "build:testimonial": "cp ./assets/css/testimonial.css ./dist/testimonial.css",
-    "build:copy": "mkdir -p dist && cp -r *.html assets dist/ && rm -rf dist/assets/css/style.css dist/assets/css/testimonial.css",
+    "build:copy": "mkdir -p dist && cp -r *.html *.txt *.xml assets dist/ && rm -rf dist/assets/css/style.css dist/assets/css/testimonial.css",
     "update-paths": "node update-css-paths.js"
   },
   "devDependencies": {

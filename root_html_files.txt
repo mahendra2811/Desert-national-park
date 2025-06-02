@@ -1,0 +1,16 @@
+about.html
+Birds.html
+BookNow.html
+Contact.html
+Destination.html
+DNP.html
+faq.html
+gallery.html
+GIB.html
+googleec22e7ac89011e99.html
+index.html
+Mamels.html
+packages.html
+privacy.html
+Reptiles.html
+terms.html
