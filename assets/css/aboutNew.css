@@ -1,7 +1,7 @@
 /* About New Page Styles */
 :root {
-  --primary-color: #2c7873;
-  --secondary-color: #6fb98f;
+  --primary-color: hsl(214, 56%, 58%);
+  --secondary-color: hsl(214, 72%, 33%);
   --accent-color: #f7b733;
   --text-color: #333;
   --light-text: #f9f9f9;
