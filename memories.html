@@ -14,6 +14,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
+    /* keep your existing .btn-secondary styles, or move inline styles here */
+    .donate {
+      padding:12px 30px;
+      font-size:1rem;
+      font-weight:600;
+      border-radius:50px;
+      background:#3b79c9;
+      color:#fff;
+      border:none;
+      box-shadow:0 5px 15px rgba(33,107,204,.3);
+      transition:.3s;
+    }
+    .donate:hover{
+      transform:scale(1.05);
+      box-shadow:0 8px 20px rgba(33,107,204,.4);
+    }
+
     /* Special Highlight for "Godawan Man of India" */
     .acheivements-list li {
       list-style: circle !important;
@@ -617,700 +634,712 @@
 
       </header>
 
-  <main>
-    <article>
-      <!-- Memorial Hero Section -->
-      <section class="memorial-hero">
-        <div class="memorial-hero-content">
-          <h1 class="memorial-hero-title">Radheshyam Bishnoi</h1>
-          <p class="memorial-hero-subtitle">The <span class="godawan-highlight">Godawan Man of India</span></p>
-          <p class="memorial-hero-subtitle">Wildlife Conservationist, Protector of the Great Indian Bustard</p>
-          <p class="memorial-hero-dates">1997 - 2025</p>
-        </div>
-      </section>
-
-      <!-- Language Selection Information -->
-      <div style="text-align: center; margin: 20px 0 5px; font-size: 1rem; color: #555;">
-        <p data-lang="hi">Click "English" for English language</p>
-        <p data-lang="en">हिंदी भाषा के लिए "हिंदी" पर क्लिक करें</p>
-      </div>
-      
-      <!-- Language Toggle -->
-      <section class="language-toggle-container">
-        <div class="language-toggle">
-          <div class="language-toggle-slider"></div>
-          <div class="language-toggle-option active" data-lang-select="en">English</div>
-          <div class="language-toggle-option" data-lang-select="hi">हिंदी</div>
-        </div>
-      </section>
-      
-      <!-- Biography Section -->
-      <section class="memorial-section">
-        <div class="container">
-          <h2 class="memorial-section-title">
-            <span data-lang="en">A Life Dedicated to Conservation: The <span class="godawan-highlight">Godawan Man of India</span></span>
-            <span data-lang="hi">संरक्षण के लिए समर्पित जीवन <span class="godawan-highlight">भारत के गोडावण मैन</span></span>
-          </h2>
-          <div class="memorial-bio">
-            <h3 data-lang="en">The Bishnoi Legacy</h3>
-            <h3 data-lang="hi">बिश्नोई विरासत</h3>
-            
-            <p data-lang="en">Born in Dholiya village, Rajasthan, Radheshyam Pemani Bishnoi, widely known as the "Godawan Man of India", embodied the environmental stewardship of the Bishnoi community from an early age. His community's 500-year tradition of wildlife protection became the foundation of his life's mission. The Bishnoi people follow 29 principles set by Guru Jambheshwar, with several specifically dedicated to protecting trees and wildlife—values that Radhe carried into modern conservation as the biggest conservationist of the Great Indian Bustard.</p>
-            
-            <p data-lang="hi">राजस्थान के धोलिया गाँव में जन्मे राधेश्याम पेमाणी बिश्नोई, जिन्हें ‘भारत के गोडावण मैन’ के नाम से भी जाना जाता है, ने बचपन से ही बिश्नोई समुदाय के पर्यावरण-संरक्षण मूल्यों को आत्मसात किया। वन्यजीव संरक्षण की यह 500-वर्ष पुरानी परंपरा उनके जीवन-मिशन की आधारशिला बनी। बिश्नोई, गुरु जंभेश्वर द्वारा निर्धारित 29 सिद्धान्तों का पालन करते हैं, जिनमें से कई पेड़ों और वन्यजीवों की रक्षा को समर्पित हैं—इन्हीं सिद्धान्तों को राधेश्याम ने आधुनिक समय में ग्रेट इंडियन बस्टर्ड के प्रमुख संरक्षक के रूप में साकार किया।</p>
-            
-            <blockquote class="memorial-quote">
-              <span data-lang="en">"The area I live in has taught me flexibility and the ability to adapt. Stray dogs, solar power infrastructure, poaching and encroachment can pose serious threats to the Thar. But I know change is possible for the Great Indian Bustard and all wildlife."</span>
-              <span data-lang="hi">"जिस क्षेत्र में मैं रहता हूं, उसने मुझे लचीलापन और अनुकूलन की क्षमता सिखाई है। आवारा कुत्ते, सौर ऊर्जा बुनियादी ढांचा, अवैध शिकार और अतिक्रमण थार के लिए गंभीर खतरा पैदा कर सकते हैं। लेकिन मुझे पता है कि ग्रेट इंडियन बस्टर्ड और सभी वन्यजीवों के लिए परिवर्तन संभव है।"</span>
-              <span class="memorial-quote-author" data-lang="en"><br>— <b>Radhe Shyam, Godawan Man of India</b></span>
-              <span class="memorial-quote-author" data-lang="hi"><br>— <b>राधे श्याम, भारत के गोडावण मैन</b></span>
-            </blockquote>
-            
-            <h3 data-lang="en">Remarkable Achievements</h3>
-            <h3 data-lang="hi">उल्लेखनीय उपलब्धियां</h3>
-            
-            <p data-lang="en">By age 28, Radhe, the Godawan Man of India, had accomplished what many conservationists strive for in a lifetime:</p>
-            <p data-lang="hi">28 वर्ष की आयु तक ‘भारत के गोडावण मैन’ राधे ने वह सब हासिल कर लिया था, जिसके लिए अनेक संरक्षणवादी जीवन-भर प्रयास करते रहते हैं</p>
-            
-            <ul class="acheivements-list" style="margin-left: 20px; margin-bottom: 20px; line-height: 1.6;">
-              <li data-lang="en">Created over 100 water reservoirs across the Pokhran region, saving countless animals from dehydration</li>
-              <li data-lang="hi">पोखरण क्षेत्र में 100 से अधिक जल भंडार बनाए, जिससे अनगिनत जानवरों को निर्जलीकरण से बचाया गया</li>
-              
-              <li data-lang="en">Led the Godawan Community Conservation project as the Godawan Man of India, mobilizing local communities to protect the Great Indian Bustard</li>
-              <li data-lang="hi">भारत के गोडावण मैन के रूप में गोडावण सामुदायिक संरक्षण परियोजना का नेतृत्व किया, ग्रेट इंडियन बस्टर्ड की रक्षा के लिए स्थानीय समुदायों को जुटाया</li>
-              
-              <li data-lang="en">Documented critical biodiversity data that informed conservation policies</li>
-              <li data-lang="hi">महत्वपूर्ण जैव विविधता डेटा का दस्तावेजीकरण किया जिसने संरक्षण नीतियों को प्रभावित किया</li>
-              
-              <li data-lang="en">Initiated over 50 anti-poaching cases resulting in approximately 300 arrests</li>
-              <li data-lang="hi">50 से अधिक अवैध शिकार विरोधी मामले शुरू किए जिनके परिणामस्वरूप लगभग 300 गिरफ्तारियां हुईं</li>
-              
-              <li data-lang="en">Rescued and rehabilitated numerous injured animals, including endangered Himalayan Griffon vultures</li>
-              <li data-lang="hi">कई घायल जानवरों को बचाया और पुनर्वासित किया, जिनमें लुप्तप्राय हिमालयन ग्रिफॉन गिद्ध भी शामिल थे</li>
-              
-              <li data-lang="en">Successfully advocated for reflectors on electric wires to prevent bird collisions</li>
-              <li data-lang="hi">पक्षियों के टकराव को रोकने के लिए बिजली के तारों पर रिफ्लेक्टर लगाने की सफलतापूर्वक वकालत की</li>
-              
-              <li data-lang="en">Built an extensive network of informants to monitor wildlife threats across the Thar Desert</li>
-              <li data-lang="hi">थार रेगिस्तान में वन्यजीव खतरों की निगरानी के लिए सूचनादाताओं का एक व्यापक नेटवर्क बनाया</li>
-            </ul>
-            
-            <h3 data-lang="en">Recognition and Honors</h3>
-            <h3 data-lang="hi">मान्यता और सम्मान</h3>
-            
-            <p data-lang="en">His tireless dedication earned him prestigious recognition:</p>
-            <p data-lang="hi">उनके अथक समर्पण ने उन्हें प्रतिष्ठित मान्यता दिलाई:</p>
-            
-            <ul class="acheivements-list" style="margin-left: 20px; margin-bottom: 20px; line-height: 1.6;">
-              <li data-lang="en">Sanctuary Wildlife Service Award (2021) under the Young Naturalist Category</li>
-              <li data-lang="hi">युवा प्रकृतिवादी श्रेणी के तहत सैंक्चुअरी वाइल्डलाइफ सर्विस अवार्ड (2021)</li>
-              
-              <li data-lang="en">Mud-on-Boots Project Leader by Sanctuary Nature Foundation</li>
-              <li data-lang="hi">सैंक्चुअरी नेचर फाउंडेशन द्वारा मड-ऑन-बूट्स प्रोजेक्ट लीडर</li>
-              
-              <li data-lang="en">Featured in Martin Goodman's book "My Head For A Tree: The Extraordinary Story of the Bishnoi, Guardians of Nature" (2025)</li>
-              <li data-lang="hi">मार्टिन गुडमैन की पुस्तक "माई हेड फॉर ए ट्री: द एक्स्ट्राऑर्डिनरी स्टोरी ऑफ द बिश्नोई, गार्डियंस ऑफ नेचर" (2025) में प्रमुखता से शामिल</li>
-              
-              <li data-lang="en">Recognition from the Rajasthan Forest Department for anti-poaching efforts</li>
-              <li data-lang="hi">अवैध शिकार विरोधी प्रयासों के लिए राजस्थान वन विभाग से मान्यता</li>
-              
-              <li data-lang="en">Acknowledgment from the Wildlife Institute of India for GIB conservation</li>
-              <li data-lang="hi">ग्रेट इंडियन बस्टर्ड संरक्षण के लिए वाइल्डलाइफ इंस्टीट्यूट ऑफ इंडिया से स्वीकृति</li>
-            </ul>
-            
-            <h3 data-lang="en">The Final Mission: A Martyr for Wildlife</h3>
-            <h3 data-lang="hi">अंतिम मिशन: वन्यजीवों के लिए एक शहीद</h3>
-            
-            <p data-lang="en">On the night of May 24, 2025, Martyr Radhe received information about deer poaching in the Lathi area of Jaisalmer. Without hesitation, he gathered a team including fellow conservationist Shyamlal Bishnoi, gaushala operator Kawaraj Singh Bhadaria, and forest department staff Surendra Choudhary. Their camper vehicle collided head-on with a truck on National Highway 11 around 10 PM.</p>
-            
-            <p data-lang="hi">24 मई 2025 की रात राधेश्याम ‘राधे’ बिश्नोई को जैसलमेर के लाठी क्षेत्र में हिरण के अवैध शिकार की सूचना मिली। बिना किसी देर किए उन्होंने साथी संरक्षणवादी श्यामलाल बिश्नोई, गौशाला संचालक कंवराज सिंह भदरिया और वन विभाग के कर्मचारी सुरेंद्र चौधरी को लेकर एक टीम तैयार की। लगभग रात 10 बजे, राष्ट्रीय राजमार्ग-11 पर उनकी कैंपर गाड़ी की एक ट्रक से सीधी भिड़ंत हो गई।</p>
-            
-            <p data-lang="en">The collision was catastrophic. Emergency services arrived quickly, but all four conservationists were pronounced dead at Pokhran Hospital. Martyr Radhe Shyam, who died in the name of animals and to help the Great Indian Bustard, became a symbol of ultimate sacrifice for wildlife conservation. The police investigation is ongoing, with some conservation advocates raising questions about the circumstances of the crash, given Radheshyam's effectiveness against poaching networks.</p>
-            
-            <p data-lang="hi">यह टक्कर घातक सिद्ध हुई। आपातकालीन सेवाएँ शीघ्र पहुँचीं, लेकिन पोखरण अस्पताल में चारों संरक्षणवादियों को मृत घोषित कर दिया गया। राधे—जिन्होंने वन्यजीवों, विशेषकर ग्रेट इंडियन बस्टर्ड, की रक्षा करते हुए प्राण त्याग दिए—आज वन्यजीव संरक्षण के परम बलिदान का प्रतीक हैं। पुलिस जाँच जारी है; कई संरक्षण-समर्थक दुर्घटना की परिस्थितियों पर प्रश्न उठा रहे हैं, क्योंकि राधेश्याम अवैध-शिकार नेटवर्क के ख़िलाफ़ अत्यन्त प्रभावी साबित हुए थे।</p>
-            
-            <h3 data-lang="en">A Nation Mourns the Godawan Man</h3>
-            <h3 data-lang="hi">एक राष्ट्र गोडावण मैन के लिए शोक मनाता है</h3>
-            
-            <p data-lang="en">News of the death of Martyr Radhe Kiahn, the Godawan Man of India, reverberated throughout India's conservation community. Union Minister Gajendra Singh Shekhawat expressed his grief on social media, and Chief Minister Bhajan Lal Sharma called the loss "extremely painful." Former Chief Minister Ashok Gehlot stated that "his dedication to nature and wildlife will remain unforgettable."</p>
-            
-            <p data-lang="hi">‘भारत के गोडावण मैन’ शहीद राधेश्याम (राधे) बिश्नोई के निधन की खबर ने भारत के संरक्षण-समुदाय को झकझोर दिया। केंद्रीय जल शक्ति मंत्री गजेंद्र सिंह शेखावत ने सोशल मीडिया पर शोक व्यक्त किया, जबकि मुख्यमंत्री भजन लाल शर्मा ने इस क्षति को “अत्यंत पीड़ादायक” बताया। पूर्व मुख्यमंत्री अशोक गहलोत ने लिखा, “प्रकृति और वन्यजीवों के प्रति उनका समर्पण अविस्मरणीय रहेगा।”</p>
-            
-            <p data-lang="en">Sumit Dookia, a wildlife biologist and Radheshyam's mentor, described him as "the flag bearer of the GIB Community Conservation Program and the biggest conservationist of the Great Indian Bustard." Sutirtha Dutta of the Wildlife Institute of India called him "one of the strongest defenders of wildlife in India" and "the true Godawan Man of India, a voice from within, a man of the soil."</p>
-            
-            <p data-lang="hi">वन्यजीव जीवविज्ञानी एवं मार्गदर्शक सुमित डूकिया ने उन्हें “जीआईबी सामुदायिक संरक्षण कार्यक्रम के ध्वजवाहक और ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक” कहा। वाइल्डलाइफ़ इंस्टिट्यूट ऑफ़ इंडिया के सुतीर्थ दत्ता ने राधेश्याम को “भारत में वन्यजीवों के सबसे सशक्त रक्षकों में से एक” और “भारत के सच्चे गोडावण मैन—भीतर से उठी आवाज़, मिट्टी से जुड़े व्यक्ति” बताया।</p>
-            
-            <h3 data-lang="en">Enduring Legacy of the Godawan Man</h3>
-            <h3 data-lang="hi">गोडावण मैन की अमर विरासत</h3>
-            
-            <p data-lang="en">Martyr Radhe, the Godawan Man of India, is survived by his wife, two young children, and parents. His death leaves an immeasurable void in India's conservation efforts, particularly for the critically endangered Great Indian Bustard. The entire city of Jaisalmer has been described as "inconsolable" by his friend and fellow conservationist Sumer Singh.</p>
-            
-            <p data-lang="hi">भारत के ‘गोडावण मैन’ शहीद राधेश्याम (राधे) बिश्नोई अपने पीछे पत्नी, दो छोटे बच्चे और माता-पिता छोड़ गए हैं। उनका निधन—ख़ासतौर पर गंभीर रूप से लुप्तप्राय ग्रेट इंडियन बस्टर्ड के संरक्षण प्रयासों में—एक अपूरणीय रिक्ति पैदा कर गया। उनके मित्र और साथी संरक्षणवादी सुमेर सिंह के शब्दों में, जैसलमेर का पूरा क्षेत्र “सांत्वना से परे” है। </p>
-            
-            <p data-lang="en">Though his life was cut tragically short, Radhe Shyam's impact as the biggest conservationist of the Great Indian Bustard will endure through the conservation networks he built, the wildlife he saved, and the awareness he raised. His story as the Godawan Man of India who died in the name of animals serves as both inspiration and a sobering reminder of the risks faced by those on the frontlines of wildlife protection.</p>
-            
-            <p data-lang="hi">यद्यपि उनका जीवन दुखद रूप से अल्प रहा, ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक के रूप में राधेश्याम का प्रभाव उनके खड़े किए गए संरक्षण-नेटवर्क, बचाए गए वन्यजीवों और जगाई गई जन-जागरूकता के माध्यम से जीवित रहेगा। वन्यजीवों के लिए प्राण न्योछावर करने वाले ‘भारत के गोडावण मैन’ की कहानी न सिर्फ प्रेरणा का स्रोत है, बल्कि यह भी याद दिलाती है कि संरक्षण के मोर्चे पर काम करने वालों को कितने गंभीर जोखिमों का सामना करना पड़ता है।</p>
-            
-            <div style="text-align: center; margin: 0 auto;">
-              <a href="./donation.html">
-                <button class="btn btn-primary">
-                  <span data-lang="en">Support Radheshyam's Family</span>
-                  <span data-lang="hi">राधेश्याम के परिवार का सहयोग करें</span>
-                </button>
-              </a>
+      <main>
+        <article>
+          <!-- Memorial Hero Section -->
+          <section class="memorial-hero">
+            <div class="memorial-hero-content">
+              <h1 class="memorial-hero-title">Radheshyam Bishnoi</h1>
+              <p class="memorial-hero-subtitle">The <span class="godawan-highlight">Godawan Man of India</span></p>
+              <p class="memorial-hero-subtitle">Wildlife Conservationist, Protector of the Great Indian Bustard</p>
+              <p class="memorial-hero-dates">1997 - 2025</p>
             </div>
+          </section>
+
+          <!-- Language Selection Information -->
+          <div style="text-align: center; margin: 20px 0 5px; font-size: 1rem; color: #555;">
+            <p data-lang="hi">Click "English" for English language</p>
+            <p data-lang="en">हिंदी भाषा के लिए "हिंदी" पर क्लिक करें</p>
           </div>
-        </div>
-      </section>
+
+          <!-- Language Toggle -->
+          <section class="language-toggle-container">
+            <div class="language-toggle">
+              <div class="language-toggle-slider"></div>
+              <div class="language-toggle-option active" data-lang-select="en">English</div>
+              <div class="language-toggle-option" data-lang-select="hi">हिंदी</div>
+            </div>
+          </section>
+
+          <!-- Biography Section -->
+          <section class="memorial-section">
+            <div class="container">
+              <h2 class="memorial-section-title">
+                <span data-lang="en">A Life Dedicated to Conservation: The <span class="godawan-highlight">Godawan Man of India</span></span>
+                <span data-lang="hi">संरक्षण के लिए समर्पित जीवन <span class="godawan-highlight">भारत के गोडावण मैन</span></span>
+              </h2>
+              <div class="memorial-bio">
+                <h3 data-lang="en">The Bishnoi Legacy</h3>
+                <h3 data-lang="hi">बिश्नोई विरासत</h3>
+
+                <p data-lang="en">Born in Dholiya village, Rajasthan, Radheshyam Pemani Bishnoi, widely known as the "Godawan Man of India", embodied the environmental stewardship of the Bishnoi community from an early age. His community's 500-year tradition of wildlife protection became the foundation of his life's mission. The Bishnoi people follow 29 principles set by Guru Jambheshwar, with several specifically dedicated to protecting trees and wildlife—values that Radhe carried into modern conservation as the biggest conservationist of the Great Indian Bustard.</p>
+
+                <p data-lang="hi">राजस्थान के धोलिया गाँव में जन्मे राधेश्याम पेमाणी बिश्नोई, जिन्हें ‘भारत के गोडावण मैन’ के नाम से भी जाना जाता है, ने बचपन से ही बिश्नोई समुदाय के पर्यावरण-संरक्षण मूल्यों को आत्मसात किया। वन्यजीव संरक्षण की यह 500-वर्ष पुरानी परंपरा उनके जीवन-मिशन की आधारशिला बनी। बिश्नोई, गुरु जंभेश्वर द्वारा निर्धारित 29 सिद्धान्तों का पालन करते हैं, जिनमें से कई पेड़ों और वन्यजीवों की रक्षा को समर्पित हैं—इन्हीं सिद्धान्तों को राधेश्याम ने आधुनिक समय में ग्रेट इंडियन बस्टर्ड के प्रमुख संरक्षक के रूप में साकार किया।</p>
+
+                <blockquote class="memorial-quote">
+                  <span data-lang="en">"The area I live in has taught me flexibility and the ability to adapt. Stray dogs, solar power infrastructure, poaching and encroachment can pose serious threats to the Thar. But I know change is possible for the Great Indian Bustard and all wildlife."</span>
+                  <span data-lang="hi">"जिस क्षेत्र में मैं रहता हूं, उसने मुझे लचीलापन और अनुकूलन की क्षमता सिखाई है। आवारा कुत्ते, सौर ऊर्जा बुनियादी ढांचा, अवैध शिकार और अतिक्रमण थार के लिए गंभीर खतरा पैदा कर सकते हैं। लेकिन मुझे पता है कि ग्रेट इंडियन बस्टर्ड और सभी वन्यजीवों के लिए परिवर्तन संभव है।"</span>
+                  <span class="memorial-quote-author" data-lang="en"><br>— <b>Radhe Shyam, Godawan Man of India</b></span>
+                  <span class="memorial-quote-author" data-lang="hi"><br>— <b>राधे श्याम, भारत के गोडावण मैन</b></span>
+                </blockquote>
+
+                <h3 data-lang="en">Remarkable Achievements</h3>
+                <h3 data-lang="hi">उल्लेखनीय उपलब्धियां</h3>
+
+                <p data-lang="en">By age 28, Radhe, the Godawan Man of India, had accomplished what many conservationists strive for in a lifetime:</p>
+                <p data-lang="hi">28 वर्ष की आयु तक ‘भारत के गोडावण मैन’ राधे ने वह सब हासिल कर लिया था, जिसके लिए अनेक संरक्षणवादी जीवन-भर प्रयास करते रहते हैं</p>
+
+                <ul class="acheivements-list" style="margin-left: 20px; margin-bottom: 20px; line-height: 1.6;">
+                  <li data-lang="en">Created over 100 water reservoirs across the Pokhran region, saving countless animals from dehydration</li>
+                  <li data-lang="hi">पोखरण क्षेत्र में 100 से अधिक जल भंडार बनाए, जिससे अनगिनत जानवरों को निर्जलीकरण से बचाया गया</li>
+
+                  <li data-lang="en">Led the Godawan Community Conservation project as the Godawan Man of India, mobilizing local communities to protect the Great Indian Bustard</li>
+                  <li data-lang="hi">भारत के गोडावण मैन के रूप में गोडावण सामुदायिक संरक्षण परियोजना का नेतृत्व किया, ग्रेट इंडियन बस्टर्ड की रक्षा के लिए स्थानीय समुदायों को जुटाया</li>
+
+                  <li data-lang="en">Documented critical biodiversity data that informed conservation policies</li>
+                  <li data-lang="hi">महत्वपूर्ण जैव विविधता डेटा का दस्तावेजीकरण किया जिसने संरक्षण नीतियों को प्रभावित किया</li>
+
+                  <li data-lang="en">Initiated over 50 anti-poaching cases resulting in approximately 300 arrests</li>
+                  <li data-lang="hi">50 से अधिक अवैध शिकार विरोधी मामले शुरू किए जिनके परिणामस्वरूप लगभग 300 गिरफ्तारियां हुईं</li>
+
+                  <li data-lang="en">Rescued and rehabilitated numerous injured animals, including endangered Himalayan Griffon vultures</li>
+                  <li data-lang="hi">कई घायल जानवरों को बचाया और पुनर्वासित किया, जिनमें लुप्तप्राय हिमालयन ग्रिफॉन गिद्ध भी शामिल थे</li>
+
+                  <li data-lang="en">Successfully advocated for reflectors on electric wires to prevent bird collisions</li>
+                  <li data-lang="hi">पक्षियों के टकराव को रोकने के लिए बिजली के तारों पर रिफ्लेक्टर लगाने की सफलतापूर्वक वकालत की</li>
+
+                  <li data-lang="en">Built an extensive network of informants to monitor wildlife threats across the Thar Desert</li>
+                  <li data-lang="hi">थार रेगिस्तान में वन्यजीव खतरों की निगरानी के लिए सूचनादाताओं का एक व्यापक नेटवर्क बनाया</li>
+                </ul>
+
+                <h3 data-lang="en">Recognition and Honors</h3>
+                <h3 data-lang="hi">मान्यता और सम्मान</h3>
+
+                <p data-lang="en">His tireless dedication earned him prestigious recognition:</p>
+                <p data-lang="hi">उनके अथक समर्पण ने उन्हें प्रतिष्ठित मान्यता दिलाई:</p>
+
+                <ul class="acheivements-list" style="margin-left: 20px; margin-bottom: 20px; line-height: 1.6;">
+                  <li data-lang="en">Sanctuary Wildlife Service Award (2021) under the Young Naturalist Category</li>
+                  <li data-lang="hi">युवा प्रकृतिवादी श्रेणी के तहत सैंक्चुअरी वाइल्डलाइफ सर्विस अवार्ड (2021)</li>
+
+                  <li data-lang="en">Mud-on-Boots Project Leader by Sanctuary Nature Foundation</li>
+                  <li data-lang="hi">सैंक्चुअरी नेचर फाउंडेशन द्वारा मड-ऑन-बूट्स प्रोजेक्ट लीडर</li>
+
+                  <li data-lang="en">Featured in Martin Goodman's book "My Head For A Tree: The Extraordinary Story of the Bishnoi, Guardians of Nature" (2025)</li>
+                  <li data-lang="hi">मार्टिन गुडमैन की पुस्तक "माई हेड फॉर ए ट्री: द एक्स्ट्राऑर्डिनरी स्टोरी ऑफ द बिश्नोई, गार्डियंस ऑफ नेचर" (2025) में प्रमुखता से शामिल</li>
+
+                  <li data-lang="en">Recognition from the Rajasthan Forest Department for anti-poaching efforts</li>
+                  <li data-lang="hi">अवैध शिकार विरोधी प्रयासों के लिए राजस्थान वन विभाग से मान्यता</li>
+
+                  <li data-lang="en">Acknowledgment from the Wildlife Institute of India for GIB conservation</li>
+                  <li data-lang="hi">ग्रेट इंडियन बस्टर्ड संरक्षण के लिए वाइल्डलाइफ इंस्टीट्यूट ऑफ इंडिया से स्वीकृति</li>
+                </ul>
+
+                <h3 data-lang="en">The Final Mission: A Martyr for Wildlife</h3>
+                <h3 data-lang="hi">अंतिम मिशन: वन्यजीवों के लिए एक शहीद</h3>
+
+                <p data-lang="en">On the night of May 24, 2025, Martyr Radhe received information about deer poaching in the Lathi area of Jaisalmer. Without hesitation, he gathered a team including fellow conservationist Shyamlal Bishnoi, gaushala operator Kawaraj Singh Bhadaria, and forest department staff Surendra Choudhary. Their camper vehicle collided head-on with a truck on National Highway 11 around 10 PM.</p>
+
+                <p data-lang="hi">24 मई 2025 की रात राधेश्याम ‘राधे’ बिश्नोई को जैसलमेर के लाठी क्षेत्र में हिरण के अवैध शिकार की सूचना मिली। बिना किसी देर किए उन्होंने साथी संरक्षणवादी श्यामलाल बिश्नोई, गौशाला संचालक कंवराज सिंह भदरिया और वन विभाग के कर्मचारी सुरेंद्र चौधरी को लेकर एक टीम तैयार की। लगभग रात 10 बजे, राष्ट्रीय राजमार्ग-11 पर उनकी कैंपर गाड़ी की एक ट्रक से सीधी भिड़ंत हो गई।</p>
+
+                <p data-lang="en">The collision was catastrophic. Emergency services arrived quickly, but all four conservationists were pronounced dead at Pokhran Hospital. Martyr Radhe Shyam, who died in the name of animals and to help the Great Indian Bustard, became a symbol of ultimate sacrifice for wildlife conservation. The police investigation is ongoing, with some conservation advocates raising questions about the circumstances of the crash, given Radheshyam's effectiveness against poaching networks.</p>
+
+                <p data-lang="hi">यह टक्कर घातक सिद्ध हुई। आपातकालीन सेवाएँ शीघ्र पहुँचीं, लेकिन पोखरण अस्पताल में चारों संरक्षणवादियों को मृत घोषित कर दिया गया। राधे—जिन्होंने वन्यजीवों, विशेषकर ग्रेट इंडियन बस्टर्ड, की रक्षा करते हुए प्राण त्याग दिए—आज वन्यजीव संरक्षण के परम बलिदान का प्रतीक हैं। पुलिस जाँच जारी है; कई संरक्षण-समर्थक दुर्घटना की परिस्थितियों पर प्रश्न उठा रहे हैं, क्योंकि राधेश्याम अवैध-शिकार नेटवर्क के ख़िलाफ़ अत्यन्त प्रभावी साबित हुए थे।</p>
+
+                <h3 data-lang="en">A Nation Mourns the Godawan Man</h3>
+                <h3 data-lang="hi">एक राष्ट्र गोडावण मैन के लिए शोक मनाता है</h3>
+
+                <p data-lang="en">News of the death of Martyr Radhe Kiahn, the Godawan Man of India, reverberated throughout India's conservation community. Union Minister Gajendra Singh Shekhawat expressed his grief on social media, and Chief Minister Bhajan Lal Sharma called the loss "extremely painful." Former Chief Minister Ashok Gehlot stated that "his dedication to nature and wildlife will remain unforgettable."</p>
+
+                <p data-lang="hi">‘भारत के गोडावण मैन’ शहीद राधेश्याम (राधे) बिश्नोई के निधन की खबर ने भारत के संरक्षण-समुदाय को झकझोर दिया। केंद्रीय जल शक्ति मंत्री गजेंद्र सिंह शेखावत ने सोशल मीडिया पर शोक व्यक्त किया, जबकि मुख्यमंत्री भजन लाल शर्मा ने इस क्षति को “अत्यंत पीड़ादायक” बताया। पूर्व मुख्यमंत्री अशोक गहलोत ने लिखा, “प्रकृति और वन्यजीवों के प्रति उनका समर्पण अविस्मरणीय रहेगा।”</p>
+
+                <p data-lang="en">Sumit Dookia, a wildlife biologist and Radheshyam's mentor, described him as "the flag bearer of the GIB Community Conservation Program and the biggest conservationist of the Great Indian Bustard." Sutirtha Dutta of the Wildlife Institute of India called him "one of the strongest defenders of wildlife in India" and "the true Godawan Man of India, a voice from within, a man of the soil."</p>
+
+                <p data-lang="hi">वन्यजीव जीवविज्ञानी एवं मार्गदर्शक सुमित डूकिया ने उन्हें “जीआईबी सामुदायिक संरक्षण कार्यक्रम के ध्वजवाहक और ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक” कहा। वाइल्डलाइफ़ इंस्टिट्यूट ऑफ़ इंडिया के सुतीर्थ दत्ता ने राधेश्याम को “भारत में वन्यजीवों के सबसे सशक्त रक्षकों में से एक” और “भारत के सच्चे गोडावण मैन—भीतर से उठी आवाज़, मिट्टी से जुड़े व्यक्ति” बताया।</p>
+
+                <h3 data-lang="en">Enduring Legacy of the Godawan Man</h3>
+                <h3 data-lang="hi">गोडावण मैन की अमर विरासत</h3>
+
+                <p data-lang="en">Martyr Radhe, the Godawan Man of India, is survived by his wife, two young children, and parents. His death leaves an immeasurable void in India's conservation efforts, particularly for the critically endangered Great Indian Bustard. The entire city of Jaisalmer has been described as "inconsolable" by his friend and fellow conservationist Sumer Singh.</p>
+
+                <p data-lang="hi">भारत के ‘गोडावण मैन’ शहीद राधेश्याम (राधे) बिश्नोई अपने पीछे पत्नी, दो छोटे बच्चे और माता-पिता छोड़ गए हैं। उनका निधन—ख़ासतौर पर गंभीर रूप से लुप्तप्राय ग्रेट इंडियन बस्टर्ड के संरक्षण प्रयासों में—एक अपूरणीय रिक्ति पैदा कर गया। उनके मित्र और साथी संरक्षणवादी सुमेर सिंह के शब्दों में, जैसलमेर का पूरा क्षेत्र “सांत्वना से परे” है। </p>
+
+                <p data-lang="en">Though his life was cut tragically short, Radhe Shyam's impact as the biggest conservationist of the Great Indian Bustard will endure through the conservation networks he built, the wildlife he saved, and the awareness he raised. His story as the Godawan Man of India who died in the name of animals serves as both inspiration and a sobering reminder of the risks faced by those on the frontlines of wildlife protection.</p>
+
+                <p data-lang="hi">यद्यपि उनका जीवन दुखद रूप से अल्प रहा, ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक के रूप में राधेश्याम का प्रभाव उनके खड़े किए गए संरक्षण-नेटवर्क, बचाए गए वन्यजीवों और जगाई गई जन-जागरूकता के माध्यम से जीवित रहेगा। वन्यजीवों के लिए प्राण न्योछावर करने वाले ‘भारत के गोडावण मैन’ की कहानी न सिर्फ प्रेरणा का स्रोत है, बल्कि यह भी याद दिलाती है कि संरक्षण के मोर्चे पर काम करने वालों को कितने गंभीर जोखिमों का सामना करना पड़ता है।</p>
+
+                <div style="display:flex; justify-content:center; margin:1rem 0;">
+                  <a href="./donation.html" class="btn btn-primary">
+                    <span data-lang="en">Support Radheshyam's Family</span>
+                    <span data-lang="hi">राधेश्याम के परिवार का सहयोग करें</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
 
 <!-- Timeline Section -->
-      <section class="memorial-section" style="background-color: #f5f5f5; padding: 80px 0;">
-        <div class="container">
-          <h2 class="memorial-section-title">
-            <span data-lang="en">A Journey of Conservation</span>
-            <span data-lang="hi">संरक्षण की यात्रा</span>
-          </h2>
-          <div class="timeline" style="margin-top: 50px; margin-bottom: 30px;">
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">1997</div>
-                <h3 class="timeline-title" data-lang="en">Born into the Bishnoi Tradition</h3>
-                <h3 class="timeline-title" data-lang="hi">बिश्नोई परंपरा में जन्म</h3>
-                <p class="timeline-description" data-lang="en">Born in Dholiya village near Pokhran, Rajasthan, into the Bishnoi community known for their 500-year tradition of environmental protection and wildlife conservation. The future Godawan Man of India began his journey here.</p>
-                <p class="timeline-description" data-lang="hi">राजस्थान के पोखरण के पास ढोलिया गांव में बिश्नोई समुदाय में जन्म, जो पर्यावरण संरक्षण और वन्यजीव संरक्षण की 500 वर्ष पुरानी परंपरा के लिए जाने जाते हैं। भारत के भविष्य के गोडावण मैन की यात्रा यहीं से शुरू हुई।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/15.jpg" alt="Radheshyam's childhood home in Dholiya village, where his conservation journey began as the future Godawan Man of India" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
-              </div>
+<section class="memorial-section" style="background-color: #f5f5f5; padding: 80px 0;">
+  <div class="container">
+    <h2 class="memorial-section-title">
+      <span data-lang="en">A Journey of Conservation</span>
+      <span data-lang="hi">संरक्षण की यात्रा</span>
+    </h2>
+    <div class="timeline" style="margin-top: 50px; margin-bottom: 30px;">
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">1997</div>
+          <h3 class="timeline-title" data-lang="en">Born into the Bishnoi Tradition</h3>
+          <h3 class="timeline-title" data-lang="hi">बिश्नोई परंपरा में जन्म</h3>
+          <p class="timeline-description" data-lang="en">Born in Dholiya village near Pokhran, Rajasthan, into the Bishnoi community known for their 500-year tradition of environmental protection and wildlife conservation. The future Godawan Man of India began his journey here.</p>
+          <p class="timeline-description" data-lang="hi">राजस्थान के पोखरण के पास ढोलिया गांव में बिश्नोई समुदाय में जन्म, जो पर्यावरण संरक्षण और वन्यजीव संरक्षण की 500 वर्ष पुरानी परंपरा के लिए जाने जाते हैं। भारत के भविष्य के गोडावण मैन की यात्रा यहीं से शुरू हुई।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/15.jpg" alt="Radheshyam's childhood home in Dholiya village, where his conservation journey began as the future Godawan Man of India" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">2010-2013</div>
+          <h3 class="timeline-title" data-lang="en">First Wildlife Rescues</h3>
+          <h3 class="timeline-title" data-lang="hi">पहले वन्यजीव बचाव</h3>
+          <p class="timeline-description" data-lang="en">As a teenager, began rescuing injured animals in the desert. "I could only save a few of them," he later recalled, which motivated him to seek formal training.</p>
+          <p class="timeline-description" data-lang="hi">किशोरावस्था में, रेगिस्तान में घायल जानवरों को बचाना शुरू किया। "मैं उनमें से कुछ को ही बचा सका," उन्होंने बाद में याद किया, जिसने उन्हें औपचारिक प्रशिक्षण लेने के लिए प्रेरित किया।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/16.jpg" alt="Young Radheshyam rescuing his first injured desert animal as a teenager, showing early signs of his conservation calling and commitment to wildlife" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">2014</div>
+          <h3 class="timeline-title" data-lang="en">Veterinary Training</h3>
+          <h3 class="timeline-title" data-lang="hi">पशु चिकित्सा प्रशिक्षण</h3>
+          <p class="timeline-description" data-lang="en">Completed a three-month course at Jodhpur's Machia Biological Park Rescue Centre under Dr. Shravan Singh, learning wildlife first aid and rehabilitation techniques.</p>
+          <p class="timeline-description" data-lang="hi">जोधपुर के माचिया बायोलॉजिकल पार्क रेस्क्यू सेंटर में डॉ. श्रवण सिंह के मार्गदर्शन में तीन महीने का कोर्स पूरा किया, जहां वन्यजीव प्राथमिक चिकित्सा और पुनर्वास तकनीकें सीखीं।</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">2015</div>
+          <h3 class="timeline-title" data-lang="en">GIB Conservation Begins</h3>
+          <h3 class="timeline-title" data-lang="hi">गोडावण संरक्षण की शुरुआत</h3>
+          <p class="timeline-description" data-lang="en">Met wildlife biologist Sumit Dookia and joined the ERDS Foundation's efforts to protect the Great Indian Bustard. Began systematic monitoring of GIB habitats and threats, earning him the title "Godawan Man of India" for his dedication to the Great Indian Bustard.</p>
+          <p class="timeline-description" data-lang="hi">वन्यजीव जीवविज्ञानी सुमित डूकिया से मिले और ग्रेट इंडियन बस्टर्ड की रक्षा के लिए ईआरडीएस फाउंडेशन के प्रयासों में शामिल हुए। गोडावण के आवासों और खतरों की व्यवस्थित निगरानी शुरू की, जिससे उन्हें ग्रेट इंडियन बस्टर्ड के प्रति समर्पण के लिए "भारत के गोडावण मैन" का खिताब मिला।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/17.png" alt="Radheshyam with wildlife biologist Sumit Dookia, beginning his formal Great Indian Bustard conservation work that earned him the title 'Godawan Man of India'" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">2016</div>
+          <h3 class="timeline-title" data-lang="en">Power Line Protest</h3>
+          <h3 class="timeline-title" data-lang="hi">बिजली लाइन विरोध</h3>
+          <p class="timeline-description" data-lang="en">Climbed a transmission tower and threatened to jump if authorities didn't install reflectors on power lines after a GIB electrocution. His dramatic protest as the Godawan Man of India succeeded in getting reflectors installed, showing his ultimate commitment to the Great Indian Bustard.</p>
+          <p class="timeline-description" data-lang="hi">एक गोडावण के बिजली से मरने के बाद ट्रांसमिशन टावर पर चढ़ गए और कूदने की धमकी दी अगर अधिकारियों ने बिजली की लाइनों पर रिफ्लेक्टर नहीं लगाए। भारत के गोडावण मैन के रूप में उनके इस नाटकीय विरोध के कारण रिफ्लेक्टर लगाए गए, जो ग्रेट इंडियन बस्टर्ड के प्रति उनकी पूर्ण प्रतिबद्धता दिखाता है।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/18.png" alt="Radheshyam's dramatic protest at the transmission tower that led to installation of bird reflectors on power lines to protect the Great Indian Bustard" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">2018</div>
+          <h3 class="timeline-title" data-lang="en">Water for Wildlife Initiative</h3>
+          <h3 class="timeline-title" data-lang="hi">वन्यजीवों के लिए जल पहल</h3>
+          <p class="timeline-description" data-lang="en">Launched a project to create water sources in the desert, eventually establishing over 100 water points that he personally maintained, driving his truck to refill them even during border tensions.</p>
+          <p class="timeline-description" data-lang="hi">रेगिस्तान में जल स्रोत बनाने के लिए एक परियोजना शुरू की, अंततः 100 से अधिक जल बिंदु स्थापित किए जिन्हें वह व्यक्तिगत रूप से बनाए रखते थे, सीमा तनाव के दौरान भी अपने ट्रक से उन्हें फिर से भरने जाते थे।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/19.png" alt="Radheshyam filling one of his 100+ desert water reservoirs that saved countless animals from dehydration in the harsh Thar Desert environment" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">2019-2020</div>
+          <h3 class="timeline-title" data-lang="en">Anti-Poaching Network</h3>
+          <h3 class="timeline-title" data-lang="hi">अवैध शिकार विरोधी नेटवर्क</h3>
+          <p class="timeline-description" data-lang="en">Developed an extensive network of informants including herders and farmers across the Thar Desert, leading to numerous poaching arrests and wildlife rescues.</p>
+          <p class="timeline-description" data-lang="hi">थार रेगिस्तान में चरवाहों और किसानों सहित सूचनादाताओं का एक व्यापक नेटवर्क विकसित किया, जिससे कई अवैध शिकारियों की गिरफ्तारी और वन्यजीवों के बचाव में मदद मिली।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/20.png" alt="Radheshyam meeting with local herders who became part of his extensive anti-poaching information network across the Thar Desert" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">2021</div>
+          <h3 class="timeline-title" data-lang="en">National Recognition</h3>
+          <h3 class="timeline-title" data-lang="hi">राष्ट्रीय मान्यता</h3>
+          <p class="timeline-description" data-lang="en">Awarded the prestigious Sanctuary Wildlife Service Award under the Young Naturalist Category. Became a Mud-on-Boots Project Leader with Sanctuary Nature Foundation.</p>
+          <p class="timeline-description" data-lang="hi">युवा प्रकृतिवादी श्रेणी के तहत प्रतिष्ठित सैंक्चुअरी वाइल्डलाइफ सर्विस अवार्ड से सम्मानित किया गया। सैंक्चुअरी नेचर फाउंडेशन के साथ मड-ऑन-बूट्स प्रोजेक्ट लीडर बने।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/21.png" alt="Radheshyam receiving the prestigious Sanctuary Wildlife Service Award, recognizing his extraordinary conservation achievements as the Godawan Man of India" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">2022-2024</div>
+          <h3 class="timeline-title" data-lang="en">Expanding Conservation Impact</h3>
+          <h3 class="timeline-title" data-lang="hi">संरक्षण प्रभाव का विस्तार</h3>
+          <p class="timeline-description" data-lang="en">Featured in national and international media for his conservation work. Turned down formal job offers to remain an independent conservationist working directly with local communities.</p>
+          <p class="timeline-description" data-lang="hi">अपने संरक्षण कार्य के लिए राष्ट्रीय और अंतरराष्ट्रीय मीडिया में प्रमुखता से दिखाए गए। स्थानीय समुदायों के साथ सीधे काम करने वाले एक स्वतंत्र संरक्षणवादी बने रहने के लिए औपचारिक नौकरी के प्रस्तावों को अस्वीकार कर दिया।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/22.png" alt="Radheshyam during a media interview about his Great Indian Bustard conservation work and community-based approach to wildlife protection" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">May 24, 2025, 10:00 PM</div>
+          <h3 class="timeline-title" data-lang="en">The Final Mission</h3>
+          <h3 class="timeline-title" data-lang="hi">अंतिम मिशन</h3>
+          <p class="timeline-description" data-lang="en">Received information about deer poaching in Lathi area. Assembled a team including Shyamlal Bishnoi, Kawaraj Singh Bhadaria, and forest staffer Surendra Choudhary. Their vehicle collided with a truck on National Highway 11 near Jaisalmer. Martyr Radhe, the Godawan Man of India, died in the name of animals and to help the Great Indian Bustard.</p>
+          <p class="timeline-description" data-lang="hi">लाठी क्षेत्र में हिरण के अवैध शिकार के बारे में जानकारी मिली। श्यामलाल बिश्नोई, कंवराज सिंह भदरिया और वन विभाग के कर्मचारी सुरेंद्र चौधरी सहित एक टीम बनाई। जैसलमेर के पास राष्ट्रीय राजमार्ग 11 पर उनके वाहन की एक ट्रक से टक्कर हो गई। शहीद राधे, भारत के गोडावण मैन, जानवरों के नाम पर और ग्रेट इंडियन बस्टर्ड की मदद के लिए मारे गए।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/23.png" alt="Memorial site of the tragic accident where Radheshyam and his team lost their lives while on an anti-poaching mission to protect deer from poachers" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-date">May 25-26, 2025</div>
+          <h3 class="timeline-title" data-lang="en">A Nation Mourns</h3>
+          <h3 class="timeline-title" data-lang="hi">एक राष्ट्र शोक मनाता है</h3>
+          <p class="timeline-description" data-lang="en">News of the death of Martyr Radhe Shyam, the Godawan Man of India and biggest conservationist of the Great Indian Bustard, spread across India, with tributes from government officials, conservationists, and citizens. His funeral in Dholiya village was attended by hundreds, including forest department officials and conservation leaders.</p>
+          <p class="timeline-description" data-lang="hi">शहीद राधे श्याम, भारत के गोडावण मैन और ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक की मृत्यु की खबर पूरे भारत में फैल गई, सरकारी अधिकारियों, संरक्षणवादियों और नागरिकों से श्रद्धांजलि मिली। ढोलिया गांव में उनके अंतिम संस्कार में वन विभाग के अधिकारियों और संरक्षण नेताओं सहित सैकड़ों लोग शामिल हुए।</p>
+          <div style="margin-top: 15px;">
+            <img src="./assets/images/memories/24.png" alt="Hundreds gathering at Radheshyam's funeral in Dholiya village to pay their respects to the Godawan Man of India who died protecting wildlife" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Photo Grid Section -->
+<section class="memorial-section" style="padding-top: 80px; padding-bottom: 80px;">
+  <div class="container">
+    <h2 class="memorial-section-title">
+      <span data-lang="en">Moments Captured: The <span class="godawan-highlight">Godawan Man of India</span></span>
+      <span data-lang="hi">कैद किए गए पल: <span class="godawan-highlight">भारत के गोडावण मैन</span></span>
+    </h2>
+    <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;" data-lang="en">A collection of photographs documenting Martyr Radhe's conservation journey and dedication as the biggest conservationist of the Great Indian Bustard and protector of the wildlife of the Thar Desert.</p>
+    <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;" data-lang="hi">शहीद राधे की संरक्षण यात्रा और ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक और थार रेगिस्तान के वन्यजीवों के रक्षक के रूप में उनके समर्पण को दर्शाने वाले तस्वीरों का संग्रह।</p>
+
+    <!-- Photo Grid -->
+    <div class="photo-grid">
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/01.jpg" alt="Radheshyam Bishnoi with a rescued Great Indian Bustard, showcasing his dedication as the Godawan Man of India" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/02.PNG" alt="Radheshyam monitoring Great Indian Bustard habitat in the Thar Desert, documenting critical conservation data" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/03.JPG" alt="Radheshyam creating a water reservoir in the desert, one of over 100 he established for wildlife" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/04.jpg" alt="Radheshyam receiving the Sanctuary Wildlife Service Award for his conservation efforts" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/05.PNG" alt="Radheshyam with local community members, mobilizing support for Great Indian Bustard conservation" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/06.PNG" alt="Radheshyam documenting Great Indian Bustard sightings in the field, part of his biodiversity monitoring work" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/07.JPG" alt="Radheshyam advocating for power line safety measures to prevent bird electrocutions" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/08.jpg" alt="Radheshyam with forest department officials during an anti-poaching operation" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/09.jpg" alt="Radheshyam rescuing an injured desert wildlife species, demonstrating his hands-on conservation approach" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/10.JPG" alt="Radheshyam speaking at a conservation awareness event in a local village" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/11.jpg" alt="Radheshyam tracking wildlife movements in the Thar Desert during a field survey" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+      <div class="photo-grid-item">
+        <img src="./assets/images/memories/12.jpg" alt="Radheshyam with his team of conservation volunteers monitoring the Great Indian Bustard population" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Global Tributes Section -->
+<section class="tributes-section" style="background: linear-gradient(to bottom, #f5f5f5, #ffffff); padding: 100px 0;">
+  <div class="container">
+    <h2 class="memorial-section-title" style="margin-bottom: 15px; color: #333; font-size: 2.8rem;">
+      <span data-lang="en">Global Tributes to the Godawan Man</span>
+      <span data-lang="hi">गोडावण मैन को वैश्विक श्रद्धांजलि</span>
+    </h2>
+    <div style="width: 100px; height: 4px; background-color: hsl(214, 57%, 51%); margin: 0 auto 40px;"></div>
+    <p style="text-align: center; margin-bottom: 50px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.2rem; color: #555;" data-lang="en">The conservation community worldwide mourns the loss of Martyr Radhe, the Godawan Man of India. His impact as the biggest conservationist of the Great Indian Bustard reached far beyond the Thar Desert, touching the hearts of officials, scientists, community members, and international organizations.</p>
+    <p style="text-align: center; margin-bottom: 50px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.2rem; color: #555;" data-lang="hi">दुनिया भर का संरक्षण समुदाय शहीद राधे, भारत के गोडावण मैन के निधन पर शोक मना रहा है। ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक के रूप में उनका प्रभाव थार रेगिस्तान से कहीं आगे तक पहुंचा, अधिकारियों, वैज्ञानिकों, समुदाय के सदस्यों और अंतरराष्ट्रीय संगठनों के दिलों को छू लिया।</p>
+
+    <div class="tributes-container" style="max-width: 1200px; margin: 0 auto;">
+      <div class="tributes-tabs" style="display: flex; justify-content: center; margin-bottom: 40px; flex-wrap: wrap; gap: 12px;">
+        <button class="tribute-tab active" data-tab="officials" style="padding: 12px 24px; background-color: hsl(214, 57%, 51%); color: white; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.15); min-width: 140px; font-size: 1rem;">
+          <span data-lang="en">Officials</span>
+          <span data-lang="hi">अधिकारीगण</span>
+        </button>
+        <button class="tribute-tab" data-tab="conservationists" style="padding: 12px 24px; background-color: #f5f5f5; color: #333; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.15); min-width: 140px; font-size: 1rem;">
+          <span data-lang="en">Conservationists</span>
+          <span data-lang="hi">संरक्षणवादी</span>
+        </button>
+        <button class="tribute-tab" data-tab="community" style="padding: 12px 24px; background-color: #f5f5f5; color: #333; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.15); min-width: 140px; font-size: 1rem;">
+          <span data-lang="en">Community</span>
+          <span data-lang="hi">समुदाय</span>
+        </button>
+        <button class="tribute-tab" data-tab="international" style="padding: 12px 24px; background-color: #f5f5f5; color: #333; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.15); min-width: 140px; font-size: 1rem;">
+          <span data-lang="en">International</span>
+          <span data-lang="hi">अंतरराष्ट्रीय</span>
+        </button>
+      </div>
+
+      <div class="tributes-content active" id="officials-content" style="display: block;">
+        <div class="tribute-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px;">
+          <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1); transition: all 0.3s ease; transform: translateY(0); cursor: pointer;" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.1)';">
+            <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 20px 25px; position: relative;">
+              <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.2rem;">Gajendra Singh Shekhawat</div>
+              <div style="color: rgba(255,255,255,0.9); font-size: 1rem;">Union Minister</div>
             </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">2010-2013</div>
-                <h3 class="timeline-title" data-lang="en">First Wildlife Rescues</h3>
-                <h3 class="timeline-title" data-lang="hi">पहले वन्यजीव बचाव</h3>
-                <p class="timeline-description" data-lang="en">As a teenager, began rescuing injured animals in the desert. "I could only save a few of them," he later recalled, which motivated him to seek formal training.</p>
-                <p class="timeline-description" data-lang="hi">किशोरावस्था में, रेगिस्तान में घायल जानवरों को बचाना शुरू किया। "मैं उनमें से कुछ को ही बचा सका," उन्होंने बाद में याद किया, जिसने उन्हें औपचारिक प्रशिक्षण लेने के लिए प्रेरित किया।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/16.jpg" alt="Young Radheshyam rescuing his first injured desert animal as a teenager, showing early signs of his conservation calling and commitment to wildlife" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
+            <div class="tribute-card-body" style="padding: 30px; position: relative;">
+              <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 70px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+              <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.7; color: #444; font-style: italic; font-size: 0.95rem;">
+                Upon hearing the news of the tragic road accident in Jaisalmer, I immediately sought information. I am deeply saddened by the passing of Martyr Radhe, the Godawan Man of India, along with Shri Shyam Prasad Bishnoi, Shri Kanwaraj Singh Bhati, and Shri Surendra Chaudhary, who died in the name of animals and to help the Great Indian Bustard while on their way to perform the virtuous deed of saving deer from poaching.
               </div>
+              <div class="tribute-card-date" style="margin-top: 25px; text-align: right; font-size: 0.9rem; color: #777;">May 24, 2025</div>
             </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">2014</div>
-                <h3 class="timeline-title" data-lang="en">Veterinary Training</h3>
-                <h3 class="timeline-title" data-lang="hi">पशु चिकित्सा प्रशिक्षण</h3>
-                <p class="timeline-description" data-lang="en">Completed a three-month course at Jodhpur's Machia Biological Park Rescue Centre under Dr. Shravan Singh, learning wildlife first aid and rehabilitation techniques.</p>
-                <p class="timeline-description" data-lang="hi">जोधपुर के माचिया बायोलॉजिकल पार्क रेस्क्यू सेंटर में डॉ. श्रवण सिंह के मार्गदर्शन में तीन महीने का कोर्स पूरा किया, जहां वन्यजीव प्राथमिक चिकित्सा और पुनर्वास तकनीकें सीखीं।</p>
-              </div>
+          </div>
+
+          <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1); transition: all 0.3s ease; transform: translateY(0); cursor: pointer;" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.1)';">
+            <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 20px 25px; position: relative;">
+              <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.2rem;">Bhajan Lal Sharma</div>
+              <div style="color: rgba(255,255,255,0.9); font-size: 1rem;">Chief Minister of Rajasthan</div>
             </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">2015</div>
-                <h3 class="timeline-title" data-lang="en">GIB Conservation Begins</h3>
-                <h3 class="timeline-title" data-lang="hi">गोडावण संरक्षण की शुरुआत</h3>
-                <p class="timeline-description" data-lang="en">Met wildlife biologist Sumit Dookia and joined the ERDS Foundation's efforts to protect the Great Indian Bustard. Began systematic monitoring of GIB habitats and threats, earning him the title "Godawan Man of India" for his dedication to the Great Indian Bustard.</p>
-                <p class="timeline-description" data-lang="hi">वन्यजीव जीवविज्ञानी सुमित डूकिया से मिले और ग्रेट इंडियन बस्टर्ड की रक्षा के लिए ईआरडीएस फाउंडेशन के प्रयासों में शामिल हुए। गोडावण के आवासों और खतरों की व्यवस्थित निगरानी शुरू की, जिससे उन्हें ग्रेट इंडियन बस्टर्ड के प्रति समर्पण के लिए "भारत के गोडावण मैन" का खिताब मिला।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/17.png" alt="Radheshyam with wildlife biologist Sumit Dookia, beginning his formal Great Indian Bustard conservation work that earned him the title 'Godawan Man of India'" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
+            <div class="tribute-card-body" style="padding: 30px; position: relative;">
+              <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 70px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+              <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.7; color: #444; font-style: italic; font-size: 0.95rem;">
+                It is extremely painful to hear about the death of Jaisalmer's Radhe Shyam, the Godawan Man of India and biggest conservationist of the Great Indian Bustard, along with Shyamlal Bishnoi, Kanwar Singh and forest department employee Surendra Choudhary, who were dedicated to the conservation of environment and wildlife, in a horrific road accident in the Lathi area of Jaisalmer.
               </div>
+              <div class="tribute-card-date" style="margin-top: 25px; text-align: right; font-size: 0.9rem; color: #777;">May 25, 2025</div>
             </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">2016</div>
-                <h3 class="timeline-title" data-lang="en">Power Line Protest</h3>
-                <h3 class="timeline-title" data-lang="hi">बिजली लाइन विरोध</h3>
-                <p class="timeline-description" data-lang="en">Climbed a transmission tower and threatened to jump if authorities didn't install reflectors on power lines after a GIB electrocution. His dramatic protest as the Godawan Man of India succeeded in getting reflectors installed, showing his ultimate commitment to the Great Indian Bustard.</p>
-                <p class="timeline-description" data-lang="hi">एक गोडावण के बिजली से मरने के बाद ट्रांसमिशन टावर पर चढ़ गए और कूदने की धमकी दी अगर अधिकारियों ने बिजली की लाइनों पर रिफ्लेक्टर नहीं लगाए। भारत के गोडावण मैन के रूप में उनके इस नाटकीय विरोध के कारण रिफ्लेक्टर लगाए गए, जो ग्रेट इंडियन बस्टर्ड के प्रति उनकी पूर्ण प्रतिबद्धता दिखाता है।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/18.png" alt="Radheshyam's dramatic protest at the transmission tower that led to installation of bird reflectors on power lines to protect the Great Indian Bustard" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
-              </div>
+          </div>
+
+          <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1); transition: all 0.3s ease; transform: translateY(0); cursor: pointer;" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.1)';">
+            <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 20px 25px; position: relative;">
+              <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.2rem;">Ashok Gehlot</div>
+              <div style="color: rgba(255,255,255,0.9); font-size: 1rem;">Former Chief Minister of Rajasthan</div>
             </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">2018</div>
-                <h3 class="timeline-title" data-lang="en">Water for Wildlife Initiative</h3>
-                <h3 class="timeline-title" data-lang="hi">वन्यजीवों के लिए जल पहल</h3>
-                <p class="timeline-description" data-lang="en">Launched a project to create water sources in the desert, eventually establishing over 100 water points that he personally maintained, driving his truck to refill them even during border tensions.</p>
-                <p class="timeline-description" data-lang="hi">रेगिस्तान में जल स्रोत बनाने के लिए एक परियोजना शुरू की, अंततः 100 से अधिक जल बिंदु स्थापित किए जिन्हें वह व्यक्तिगत रूप से बनाए रखते थे, सीमा तनाव के दौरान भी अपने ट्रक से उन्हें फिर से भरने जाते थे।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/19.png" alt="Radheshyam filling one of his 100+ desert water reservoirs that saved countless animals from dehydration in the harsh Thar Desert environment" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
+            <div class="tribute-card-body" style="padding: 30px; position: relative;">
+              <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 70px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+              <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.7; color: #444; font-style: italic; font-size: 0.95rem;">
+                The dedication of Martyr Radhe, the Godawan Man of India, to nature and wildlife will remain unforgettable. His sacrifice for the Great Indian Bustard has made him immortal in conservation history. May God give him peace. Om Shanti.
               </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">2019-2020</div>
-                <h3 class="timeline-title" data-lang="en">Anti-Poaching Network</h3>
-                <h3 class="timeline-title" data-lang="hi">अवैध शिकार विरोधी नेटवर्क</h3>
-                <p class="timeline-description" data-lang="en">Developed an extensive network of informants including herders and farmers across the Thar Desert, leading to numerous poaching arrests and wildlife rescues.</p>
-                <p class="timeline-description" data-lang="hi">थार रेगिस्तान में चरवाहों और किसानों सहित सूचनादाताओं का एक व्यापक नेटवर्क विकसित किया, जिससे कई अवैध शिकारियों की गिरफ्तारी और वन्यजीवों के बचाव में मदद मिली।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/20.png" alt="Radheshyam meeting with local herders who became part of his extensive anti-poaching information network across the Thar Desert" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">2021</div>
-                <h3 class="timeline-title" data-lang="en">National Recognition</h3>
-                <h3 class="timeline-title" data-lang="hi">राष्ट्रीय मान्यता</h3>
-                <p class="timeline-description" data-lang="en">Awarded the prestigious Sanctuary Wildlife Service Award under the Young Naturalist Category. Became a Mud-on-Boots Project Leader with Sanctuary Nature Foundation.</p>
-                <p class="timeline-description" data-lang="hi">युवा प्रकृतिवादी श्रेणी के तहत प्रतिष्ठित सैंक्चुअरी वाइल्डलाइफ सर्विस अवार्ड से सम्मानित किया गया। सैंक्चुअरी नेचर फाउंडेशन के साथ मड-ऑन-बूट्स प्रोजेक्ट लीडर बने।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/21.png" alt="Radheshyam receiving the prestigious Sanctuary Wildlife Service Award, recognizing his extraordinary conservation achievements as the Godawan Man of India" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">2022-2024</div>
-                <h3 class="timeline-title" data-lang="en">Expanding Conservation Impact</h3>
-                <h3 class="timeline-title" data-lang="hi">संरक्षण प्रभाव का विस्तार</h3>
-                <p class="timeline-description" data-lang="en">Featured in national and international media for his conservation work. Turned down formal job offers to remain an independent conservationist working directly with local communities.</p>
-                <p class="timeline-description" data-lang="hi">अपने संरक्षण कार्य के लिए राष्ट्रीय और अंतरराष्ट्रीय मीडिया में प्रमुखता से दिखाए गए। स्थानीय समुदायों के साथ सीधे काम करने वाले एक स्वतंत्र संरक्षणवादी बने रहने के लिए औपचारिक नौकरी के प्रस्तावों को अस्वीकार कर दिया।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/22.png" alt="Radheshyam during a media interview about his Great Indian Bustard conservation work and community-based approach to wildlife protection" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">May 24, 2025, 10:00 PM</div>
-                <h3 class="timeline-title" data-lang="en">The Final Mission</h3>
-                <h3 class="timeline-title" data-lang="hi">अंतिम मिशन</h3>
-                <p class="timeline-description" data-lang="en">Received information about deer poaching in Lathi area. Assembled a team including Shyamlal Bishnoi, Kawaraj Singh Bhadaria, and forest staffer Surendra Choudhary. Their vehicle collided with a truck on National Highway 11 near Jaisalmer. Martyr Radhe, the Godawan Man of India, died in the name of animals and to help the Great Indian Bustard.</p>
-                <p class="timeline-description" data-lang="hi">लाठी क्षेत्र में हिरण के अवैध शिकार के बारे में जानकारी मिली। श्यामलाल बिश्नोई, कंवराज सिंह भदरिया और वन विभाग के कर्मचारी सुरेंद्र चौधरी सहित एक टीम बनाई। जैसलमेर के पास राष्ट्रीय राजमार्ग 11 पर उनके वाहन की एक ट्रक से टक्कर हो गई। शहीद राधे, भारत के गोडावण मैन, जानवरों के नाम पर और ग्रेट इंडियन बस्टर्ड की मदद के लिए मारे गए।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/23.png" alt="Memorial site of the tragic accident where Radheshyam and his team lost their lives while on an anti-poaching mission to protect deer from poachers" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <div class="timeline-date">May 25-26, 2025</div>
-                <h3 class="timeline-title" data-lang="en">A Nation Mourns</h3>
-                <h3 class="timeline-title" data-lang="hi">एक राष्ट्र शोक मनाता है</h3>
-                <p class="timeline-description" data-lang="en">News of the death of Martyr Radhe Shyam, the Godawan Man of India and biggest conservationist of the Great Indian Bustard, spread across India, with tributes from government officials, conservationists, and citizens. His funeral in Dholiya village was attended by hundreds, including forest department officials and conservation leaders.</p>
-                <p class="timeline-description" data-lang="hi">शहीद राधे श्याम, भारत के गोडावण मैन और ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक की मृत्यु की खबर पूरे भारत में फैल गई, सरकारी अधिकारियों, संरक्षणवादियों और नागरिकों से श्रद्धांजलि मिली। ढोलिया गांव में उनके अंतिम संस्कार में वन विभाग के अधिकारियों और संरक्षण नेताओं सहित सैकड़ों लोग शामिल हुए।</p>
-                <div style="margin-top: 15px;">
-                  <img src="./assets/images/memories/24.png" alt="Hundreds gathering at Radheshyam's funeral in Dholiya village to pay their respects to the Godawan Man of India who died protecting wildlife" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                </div>
-              </div>
+              <div class="tribute-card-date" style="margin-top: 25px; text-align: right; font-size: 0.9rem; color: #777;">May 25, 2025</div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- Photo Grid Section -->
-      <section class="memorial-section" style="padding-top: 80px; padding-bottom: 80px;">
-        <div class="container">
-          <h2 class="memorial-section-title">
-            <span data-lang="en">Moments Captured: The <span class="godawan-highlight">Godawan Man of India</span></span>
-            <span data-lang="hi">कैद किए गए पल: <span class="godawan-highlight">भारत के गोडावण मैन</span></span>
-          </h2>
-          <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;" data-lang="en">A collection of photographs documenting Martyr Radhe's conservation journey and dedication as the biggest conservationist of the Great Indian Bustard and protector of the wildlife of the Thar Desert.</p>
-          <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;" data-lang="hi">शहीद राधे की संरक्षण यात्रा और ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक और थार रेगिस्तान के वन्यजीवों के रक्षक के रूप में उनके समर्पण को दर्शाने वाले तस्वीरों का संग्रह।</p>
-          
-          <!-- Photo Grid -->
-          <div class="photo-grid">
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/01.jpg" alt="Radheshyam Bishnoi with a rescued Great Indian Bustard, showcasing his dedication as the Godawan Man of India" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+      <div style="text-align: center; margin-top: 50px; padding: 25px; background: linear-gradient(to right, #e6f0ff, #fff); border-radius: 15px; box-shadow: 0 10px 30px rgba(33, 107, 204, 0.1);">
+        <p style="margin-bottom: 20px; font-size: 1.05rem; font-weight: 500; color: #333; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">Honor Radheshyam's memory by supporting his family and continuing his conservation work for the Great Indian Bustard</p>
+        <div style="text-align:center;">
+          <a href="./donation.html" class="btn-primary donate" style="display:inline-block;width:auto;">
+            Donate&nbsp;Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Conservationists Content -->
+    <div class="tributes-content" id="conservationists-content" style="display: none;">
+      <div class="tribute-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px;">
+        <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1); transition: all 0.3s ease; transform: translateY(0); cursor: pointer;" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.1)';">
+          <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 20px 25px; position: relative;">
+            <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.2rem;">Sumit Dookia</div>
+            <div style="color: rgba(255,255,255,0.9); font-size: 1rem;">Wildlife Biologist, ERDS Foundation</div>
+          </div>
+          <div class="tribute-card-body" style="padding: 30px; position: relative;">
+            <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 70px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+            <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.7; color: #444; font-style: italic; font-size: 0.95rem;">
+              Radhe Shyam, the Godawan Man of India, became a crucial part of our fight to save the GIB habitat outside the DNP — we had to fight tooth and nail against corporate nexus to bureaucratic procedures. We started working from scratch and had finally reached a point where our voices were beginning to be heard. As the biggest conservationist of the Great Indian Bustard, Radhe was unlike many others; he did not do things for personal gain. It will be difficult to fill this void that Martyr Radhe has left.
             </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/02.PNG" alt="Radheshyam monitoring Great Indian Bustard habitat in the Thar Desert, documenting critical conservation data" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/03.JPG" alt="Radheshyam creating a water reservoir in the desert, one of over 100 he established for wildlife" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/04.jpg" alt="Radheshyam receiving the Sanctuary Wildlife Service Award for his conservation efforts" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/05.PNG" alt="Radheshyam with local community members, mobilizing support for Great Indian Bustard conservation" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/06.PNG" alt="Radheshyam documenting Great Indian Bustard sightings in the field, part of his biodiversity monitoring work" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/07.JPG" alt="Radheshyam advocating for power line safety measures to prevent bird electrocutions" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/08.jpg" alt="Radheshyam with forest department officials during an anti-poaching operation" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/09.jpg" alt="Radheshyam rescuing an injured desert wildlife species, demonstrating his hands-on conservation approach" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/10.JPG" alt="Radheshyam speaking at a conservation awareness event in a local village" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/11.jpg" alt="Radheshyam tracking wildlife movements in the Thar Desert during a field survey" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
-            <div class="photo-grid-item">
-              <img src="./assets/images/memories/12.jpg" alt="Radheshyam with his team of conservation volunteers monitoring the Great Indian Bustard population" style="width: 100%; height: auto; display: block; border-radius: 8px;">
-            </div>
+            <div class="tribute-card-date" style="margin-top: 25px; text-align: right; font-size: 0.9rem; color: #777;">May 25, 2025</div>
           </div>
         </div>
-      </section>
 
-      <!-- Global Tributes Section -->
-      <section class="tributes-section" style="background: linear-gradient(to bottom, #f5f5f5, #ffffff); padding: 100px 0;">
-        <div class="container">
-          <h2 class="memorial-section-title" style="margin-bottom: 15px; color: #333; font-size: 2.8rem;">
-            <span data-lang="en">Global Tributes to the Godawan Man</span>
-            <span data-lang="hi">गोडावण मैन को वैश्विक श्रद्धांजलि</span>
-          </h2>
-          <div style="width: 100px; height: 4px; background-color: hsl(214, 57%, 51%); margin: 0 auto 40px;"></div>
-          <p style="text-align: center; margin-bottom: 50px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.2rem; color: #555;" data-lang="en">The conservation community worldwide mourns the loss of Martyr Radhe, the Godawan Man of India. His impact as the biggest conservationist of the Great Indian Bustard reached far beyond the Thar Desert, touching the hearts of officials, scientists, community members, and international organizations.</p>
-          <p style="text-align: center; margin-bottom: 50px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.2rem; color: #555;" data-lang="hi">दुनिया भर का संरक्षण समुदाय शहीद राधे, भारत के गोडावण मैन के निधन पर शोक मना रहा है। ग्रेट इंडियन बस्टर्ड के सबसे बड़े संरक्षक के रूप में उनका प्रभाव थार रेगिस्तान से कहीं आगे तक पहुंचा, अधिकारियों, वैज्ञानिकों, समुदाय के सदस्यों और अंतरराष्ट्रीय संगठनों के दिलों को छू लिया।</p>
-          
-          <div class="tributes-container" style="max-width: 1200px; margin: 0 auto;">
-            <div class="tributes-tabs" style="display: flex; justify-content: center; margin-bottom: 40px; flex-wrap: wrap; gap: 12px;">
-              <button class="tribute-tab active" data-tab="officials" style="padding: 12px 24px; background-color: hsl(214, 57%, 51%); color: white; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.15); min-width: 140px; font-size: 1rem;">
-                <span data-lang="en">Officials</span>
-                <span data-lang="hi">अधिकारीगण</span>
-              </button>
-              <button class="tribute-tab" data-tab="conservationists" style="padding: 12px 24px; background-color: #f5f5f5; color: #333; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.15); min-width: 140px; font-size: 1rem;">
-                <span data-lang="en">Conservationists</span>
-                <span data-lang="hi">संरक्षणवादी</span>
-              </button>
-              <button class="tribute-tab" data-tab="community" style="padding: 12px 24px; background-color: #f5f5f5; color: #333; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.15); min-width: 140px; font-size: 1rem;">
-                <span data-lang="en">Community</span>
-                <span data-lang="hi">समुदाय</span>
-              </button>
-              <button class="tribute-tab" data-tab="international" style="padding: 12px 24px; background-color: #f5f5f5; color: #333; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.15); min-width: 140px; font-size: 1rem;">
-                <span data-lang="en">International</span>
-                <span data-lang="hi">अंतरराष्ट्रीय</span>
-              </button>
-            </div>
-            
-            <div class="tributes-content active" id="officials-content" style="display: block;">
-              <div class="tribute-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px;">
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1); transition: all 0.3s ease; transform: translateY(0); cursor: pointer;" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.1)';">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 20px 25px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.2rem;">Gajendra Singh Shekhawat</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 1rem;">Union Minister</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 30px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 70px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.7; color: #444; font-style: italic; font-size: 0.95rem;">
-                      Upon hearing the news of the tragic road accident in Jaisalmer, I immediately sought information. I am deeply saddened by the passing of Martyr Radhe, the Godawan Man of India, along with Shri Shyam Prasad Bishnoi, Shri Kanwaraj Singh Bhati, and Shri Surendra Chaudhary, who died in the name of animals and to help the Great Indian Bustard while on their way to perform the virtuous deed of saving deer from poaching.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 25px; text-align: right; font-size: 0.9rem; color: #777;">May 24, 2025</div>
-                  </div>
-                </div>
-
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1); transition: all 0.3s ease; transform: translateY(0); cursor: pointer;" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.1)';">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 20px 25px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.2rem;">Bhajan Lal Sharma</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 1rem;">Chief Minister of Rajasthan</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 30px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 70px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.7; color: #444; font-style: italic; font-size: 0.95rem;">
-                      It is extremely painful to hear about the death of Jaisalmer's Radhe Shyam, the Godawan Man of India and biggest conservationist of the Great Indian Bustard, along with Shyamlal Bishnoi, Kanwar Singh and forest department employee Surendra Choudhary, who were dedicated to the conservation of environment and wildlife, in a horrific road accident in the Lathi area of Jaisalmer.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 25px; text-align: right; font-size: 0.9rem; color: #777;">May 25, 2025</div>
-                  </div>
-                </div>
-
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1); transition: all 0.3s ease; transform: translateY(0); cursor: pointer;" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.1)';">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 20px 25px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.2rem;">Ashok Gehlot</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 1rem;">Former Chief Minister of Rajasthan</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 30px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 70px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.7; color: #444; font-style: italic; font-size: 0.95rem;">
-                      The dedication of Martyr Radhe, the Godawan Man of India, to nature and wildlife will remain unforgettable. His sacrifice for the Great Indian Bustard has made him immortal in conservation history. May God give him peace. Om Shanti.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 25px; text-align: right; font-size: 0.9rem; color: #777;">May 25, 2025</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div style="text-align: center; margin-top: 50px; padding: 25px; background: linear-gradient(to right, #e6f0ff, #fff); border-radius: 15px; box-shadow: 0 10px 30px rgba(33, 107, 204, 0.1);">
-              <p style="margin-bottom: 20px; font-size: 1.05rem; font-weight: 500; color: #333; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">Honor Radheshyam's memory by supporting his family and continuing his conservation work for the Great Indian Bustard</p>
-              <a href="./donation.html">
-                <button class="btn btn-secondary" style="padding: 12px 30px; font-size: 1rem; font-weight: 600; border-radius: 50px; background-color: hsl(214, 57%, 51%); border: none; color: white; box-shadow: 0 5px 15px rgba(33, 107, 204, 0.3); transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.05)';this.style.boxShadow='0 8px 20px rgba(33, 107, 204, 0.4)';" onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 5px 15px rgba(33, 107, 204, 0.3)';">Donate Now</button>
-              </a>
-            </div>
+        <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
+            <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Sutirtha Dutta</div>
+            <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Senior Scientist, Wildlife Institute of India</div>
           </div>
-          
-          <!-- Conservationists Content -->
-          <div class="tributes-content" id="conservationists-content" style="display: none;">
-            <div class="tribute-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px;">
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1); transition: all 0.3s ease; transform: translateY(0); cursor: pointer;" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.1)';">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 20px 25px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.2rem;">Sumit Dookia</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 1rem;">Wildlife Biologist, ERDS Foundation</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 30px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 70px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.7; color: #444; font-style: italic; font-size: 0.95rem;">
-                      Radhe Shyam, the Godawan Man of India, became a crucial part of our fight to save the GIB habitat outside the DNP — we had to fight tooth and nail against corporate nexus to bureaucratic procedures. We started working from scratch and had finally reached a point where our voices were beginning to be heard. As the biggest conservationist of the Great Indian Bustard, Radhe was unlike many others; he did not do things for personal gain. It will be difficult to fill this void that Martyr Radhe has left.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 25px; text-align: right; font-size: 0.9rem; color: #777;">May 25, 2025</div>
-                  </div>
-                </div>
-
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Sutirtha Dutta</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Senior Scientist, Wildlife Institute of India</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 25px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
-                      The demise of Martyr Radhe, the Godawan Man of India, is a terrible loss for conservation. He has been one of the strongest defenders of wildlife in India and played a critical role in building the support for nature conservation among local people in the Thar. As the biggest conservationist of the Great Indian Bustard, he was a voice from within, a man of the soil who died in the name of animals.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 25, 2025</div>
-                  </div>
-                </div>
-
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Dr. Shravan Singh</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Vulture Conservation Breeding Centre</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 25px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
-                      Radhe Shyam, the Godawan Man of India, would often bring injured chinkaras, birds, blue bulls, to me on his truck from Pokhran almost 170 kms away, because they did not have such a facility there. His passion for learning wildlife first aid so he could provide immediate treatment to injured animals was remarkable. His dedication to the Great Indian Bustard and all wildlife made him the biggest conservationist in the region.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 26, 2025</div>
-                  </div>
-                </div>
-              </div>
+          <div class="tribute-card-body" style="padding: 25px; position: relative;">
+            <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+            <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
+              The demise of Martyr Radhe, the Godawan Man of India, is a terrible loss for conservation. He has been one of the strongest defenders of wildlife in India and played a critical role in building the support for nature conservation among local people in the Thar. As the biggest conservationist of the Great Indian Bustard, he was a voice from within, a man of the soil who died in the name of animals.
             </div>
-            
-            <!-- Community Content -->
-            <div class="tributes-content" id="community-content" style="display: none;">
-              <div class="tribute-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px;">
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Sumer Singh</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Friend and Fellow Conservationist</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 25px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
-                      The entire city of Jaisalmer has been inconsolable since the death of Martyr Radhe, the Godawan Man of India. I feel like I've lost my own brother. The biggest conservationist of the Great Indian Bustard has left us, and it is a loss we won't recover from anytime soon.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 26, 2025</div>
-                  </div>
-                </div>
-
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Omesh Bajpai</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Scientific Advisor, Plant and Environmental Research Institute</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 25px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
-                      Radhe, the Godawan Man of India, and his team were very good at fieldwork because they grew up there and are well aware about the local ecology and the pattern or behaviour of the animals they are protecting as well as their threats. We'd have long debates about him turning down formal jobs. As the biggest conservationist of the Great Indian Bustard, he believed he would be most effective working independently with his community.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 25, 2025</div>
-                  </div>
-                </div>
-
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Govind Sagar Bharadwaj</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Member Secretary, NTCA</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 25px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
-                      Many youth were trained at that time, but Martyr Radhe was perhaps the only one who developed such passion for landscape and wildlife conservation. His contribution as the Godawan Man of India and the biggest conservationist of the Great Indian Bustard has been immense and so this loss, is big.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 26, 2025</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <!-- International Content -->
-            <div class="tributes-content" id="international-content" style="display: none;">
-              <div class="tribute-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px;">
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Martin Goodman</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Author of "My Head For A Tree: The Extraordinary Story of the Bishnoi"</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 25px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
-                      In my book, I documented how the Godawan Man of India once climbed a transmission tower and threatened to jump if the forest department didn't fit reflectors on the electric wires after a GIB electrocution. His courage and conviction as the biggest conservationist of the Great Indian Bustard were extraordinary. The world has lost Martyr Radhe, a true environmental hero who died in the name of animals.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 26, 2025</div>
-                  </div>
-                </div>
-
-                <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-                  <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
-                    <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">International Union for Conservation of Nature</div>
-                    <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">IUCN</div>
-                  </div>
-                  <div class="tribute-card-body" style="padding: 25px; position: relative;">
-                    <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
-                    <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
-                      The IUCN mourns the loss of Martyr Radhe, the Godawan Man of India, whose grassroots conservation efforts for the Critically Endangered Great Indian Bustard exemplified community-led conservation at its finest. As the biggest conservationist of the Great Indian Bustard, his work demonstrates how local champions can make significant impacts on species conservation.
-                    </div>
-                    <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 27, 2025</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 25, 2025</div>
           </div>
         </div>
-      </section>
 
-      <!-- Padma Shri Nomination Section -->
-      <section class="memorial-section" style="background: linear-gradient(to bottom, #ffffff, #f5f5f5); padding: 80px 0;">
-        <div class="container">
-          <h2 class="memorial-section-title">
-            <span data-lang="en">Padma Shri Award Campaign</span>
-            <span data-lang="hi">पद्म श्री पुरस्कार अभियान</span>
-          </h2>
-          <div style="width: 100px; height: 4px; background-color: hsl(214, 57%, 51%); margin: 0 auto 40px;"></div>
-          <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.1rem; color: #555;" data-lang="en">Local communities and conservationists across India have requested the government to honor Radheshyam Bishnoi with the prestigious Padma Shri Award (posthumous) for his extraordinary contributions to wildlife conservation and ultimate sacrifice. The campaign is ongoing, with hopes that his remarkable legacy will receive this well-deserved national recognition.</p>
-          <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.1rem; color: #555;" data-lang="hi">समूचे भारत के स्थानीय समुदायों और संरक्षणवादियों ने सरकार से अनुरोध किया है कि वन्यजीव संरक्षण में राधेश्याम बिश्नोई के असाधारण योगदान एवं सर्वोच्च बलिदान के लिए उन्हें मरणोपरांत प्रतिष्ठित पद्म श्री से सम्मानित किया जाए। यह अभियान इस आशा के साथ जारी है कि उनकी उल्लेखनीय विरासत को उपयुक्त राष्ट्रीय मान्यता मिलेगी।</p>
-          
-          <div style="max-width: 900px; margin: 0 auto; background-color: white; padding: 40px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-            <div style="border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 25px;">
-              <h3 style="font-size: 1.4rem; color: #333; margin-bottom: 10px;" data-lang="en">Key Achievements Highlighted in Campaign</h3>
-              <h3 style="font-size: 1.4rem; color: #333; margin-bottom: 10px;" data-lang="hi">अभियान में उजागर की गई प्रमुख उपलब्धियां</h3>
-              <p style="color: #777; font-style: italic;" data-lang="en">Proposed for consideration by the Padma Awards Committee, Ministry of Home Affairs, Government of India</p>
-              <p style="color: #777; font-style: italic;" data-lang="hi">पद्म पुरस्कार समिति, गृह मंत्रालय, भारत सरकार द्वारा विचार के लिए प्रस्तावित</p>
-            </div>
-            
-            <div class="achievements-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin-bottom: 30px;">
-              <div class="achievement-card" style="background-color: #f9f9f9; border-radius: 8px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                <div style="font-size: 2.5rem; color: hsl(214, 57%, 51%); margin-bottom: 15px; text-align: center;">
-                  <ion-icon name="water-outline"></ion-icon>
-                </div>
-                <h4 style="font-size: 1.2rem; margin-bottom: 12px; text-align: center; color: #333;">Water Conservation</h4>
-                <p style="line-height: 1.6; color: #555; text-align: center;">Constructed and maintained 50-60 water ponds at his own expense, providing a lifeline for wildlife in the arid Thar Desert.</p>
-              </div>
-              
-              <div class="achievement-card" style="background-color: #f9f9f9; border-radius: 8px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                <div style="font-size: 2.5rem; color: hsl(214, 57%, 51%); margin-bottom: 15px; text-align: center;">
-                  <ion-icon name="shield-outline"></ion-icon>
-                </div>
-                <h4 style="font-size: 1.2rem; margin-bottom: 12px; text-align: center; color: #333;">Anti-Poaching Efforts</h4>
-                <p style="line-height: 1.6; color: #555; text-align: center;">Collaborated with forest department to conduct over 1,000 raids to curb poaching and illegal activities threatening wildlife.</p>
-              </div>
-              
-              <div class="achievement-card" style="background-color: #f9f9f9; border-radius: 8px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                <div style="font-size: 2.5rem; color: hsl(214, 57%, 51%); margin-bottom: 15px; text-align: center;">
-                  <ion-icon name="people-outline"></ion-icon>
-                </div>
-                <h4 style="font-size: 1.2rem; margin-bottom: 12px; text-align: center; color: #333;">Community Conservation</h4>
-                <p style="line-height: 1.6; color: #555; text-align: center;">Led community-driven initiatives like the Godawan Community Conservation Project, protecting endangered species including blackbuck.</p>
-              </div>
-            </div>
-            
-            <div style="background-color: #f0f7ff; border-radius: 8px; padding: 25px; margin-bottom: 30px; border-left: 4px solid hsl(214, 57%, 51%);">
-              <h4 style="font-size: 1.2rem; margin-bottom: 15px; color: #333;" data-lang="en">Dedication & Impact</h4>
-              <h4 style="font-size: 1.2rem; margin-bottom: 15px; color: #333;" data-lang="hi">समर्पण और प्रभाव</h4>
-              <p style="line-height: 1.7; color: #444;">
-                Radheshyam dedicated over 12 years to conservation in the harsh terrain of Rajasthan's western desert. His hands-on approach included rescuing injured animals, fighting poachers, and ensuring water availability. His work saved countless animals and inspired others to join environmental preservation efforts. Despite his young age, his impact was profound, earning him admiration across Rajasthan and beyond.
-              </p>
-            </div>
-            
-            <div style="background-color: #fff5f5; border-radius: 8px; padding: 25px; border-left: 4px solid #d33;">
-              <h4 style="font-size: 1.2rem; margin-bottom: 15px; color: #333;" data-lang="en">Ultimate Sacrifice</h4>
-              <h4 style="font-size: 1.2rem; margin-bottom: 15px; color: #333;" data-lang="hi">अंतिम बलिदान</h4>
-              <p style="line-height: 1.7; color: #444;">
-                On May 24, 2025, at the age of 28, Radheshyam Bishnoi, along with three fellow conservationists, lost his life in a road accident while pursuing poachers. His ultimate sacrifice underscores the depth of his commitment and courage. The loss of such a passionate and selfless individual has left a void in the conservation community, but his legacy continues to inspire.
-              </p>
-            </div>
-            
-            <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
-              <p style="font-size: 0.9rem; color: #777;"><strong>References:</strong> News article on Radheshyam Bishnoi's contributions (Mongabay India, May 24, 2025) and social media posts highlighting his work (March 4, 2025, and May 26–27, 2025).</p>
-            </div>
+        <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
+            <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Dr. Shravan Singh</div>
+            <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Vulture Conservation Breeding Centre</div>
           </div>
-          
-          <div style="text-align: center; margin-top: 40px;">
-            <img src="./assets/images/memories/25.png" alt="Radheshyam Bishnoi with a Great Indian Bustard in its natural habitat in the Thar Desert - the official image submitted with his posthumous Padma Shri nomination" style="max-width: 500px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
-            <p style="margin-top: 15px; font-style: italic; color: #666;" data-lang="en">Image proposed for the Padma Shri campaign showing Radheshyam with a Great Indian Bustard</p>
-            <p style="margin-top: 15px; font-style: italic; color: #666;" data-lang="hi">पद्म श्री अभियान के लिए प्रस्तावित छवि जो राधेश्याम को ग्रेट इंडियन बस्टर्ड के साथ दिखाती है</p>
-          </div>
-          
-          <div style="text-align: center; margin-top: 50px;">
-            <a href="./donation.html">
-              <button class="btn btn-primary">
-                <span data-lang="en">Join the Padma Shri Campaign</span>
-                <span data-lang="hi">पद्म श्री अभियान में शामिल हों</span>
-              </button>
-            </a>
+          <div class="tribute-card-body" style="padding: 25px; position: relative;">
+            <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+            <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
+              Radhe Shyam, the Godawan Man of India, would often bring injured chinkaras, birds, blue bulls, to me on his truck from Pokhran almost 170 kms away, because they did not have such a facility there. His passion for learning wildlife first aid so he could provide immediate treatment to injured animals was remarkable. His dedication to the Great Indian Bustard and all wildlife made him the biggest conservationist in the region.
+            </div>
+            <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 26, 2025</div>
           </div>
         </div>
-      </section>
-      
-      <!-- Social Media Tributes Section -->
-      <section class="memorial-section" style="background: linear-gradient(to bottom, #f5f5f5, #ffffff); padding: 80px 0;">
-        <div class="container">
-          <h2 class="memorial-section-title">
-            <span data-lang="en">Social Media Tributes</span>
-            <span data-lang="hi">सोशल मीडिया श्रद्धांजलि</span>
-          </h2>
-          <div style="width: 100px; height: 4px; background-color: hsl(214, 57%, 51%); margin: 0 auto 40px;"></div>
-          <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.1rem; color: #555;" data-lang="en">Tributes to Radheshyam Bishnoi from conservation organizations, government officials, and wildlife advocates across social media platforms.</p>
-          <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.1rem; color: #555;" data-lang="hi">सोशल मीडिया प्लेटफॉर्म पर संरक्षण संगठनों, सरकारी अधिकारियों और वन्यजीव अधिवक्ताओं द्वारा राधेश्याम बिश्नोई को श्रद्धांजलि।</p>
-          
-          <!-- Social Media Cards Container -->
-          <div id="social-media-cards" class="social-media-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
-            <!-- Cards will be dynamically inserted here by the JavaScript function -->
+      </div>
+    </div>
+
+    <!-- Community Content -->
+    <div class="tributes-content" id="community-content" style="display: none;">
+      <div class="tribute-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px;">
+        <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
+            <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Sumer Singh</div>
+            <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Friend and Fellow Conservationist</div>
           </div>
-          
-          <!-- Load More Button -->
-          <div style="text-align: center; margin-top: 50px;">
-            <button id="load-more-tributes" class="btn btn-secondary" style="background-color: #f5f5f5; color: #333; border: none; padding: 12px 30px; border-radius: 30px; font-weight: 600; box-shadow: 0 4px 10px rgba(0,0,0,0.1); cursor: pointer; transition: all 0.3s ease;">
-              <span data-lang="en">Load More Tributes</span>
-              <span data-lang="hi">और श्रद्धांजलियां लोड करें</span>
-            </button>
+          <div class="tribute-card-body" style="padding: 25px; position: relative;">
+            <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+            <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
+              The entire city of Jaisalmer has been inconsolable since the death of Martyr Radhe, the Godawan Man of India. I feel like I've lost my own brother. The biggest conservationist of the Great Indian Bustard has left us, and it is a loss we won't recover from anytime soon.
+            </div>
+            <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 26, 2025</div>
           </div>
         </div>
-      </section>
-      
-      <!-- JavaScript for Social Media Tributes -->
-      <script>
+
+        <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
+            <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Omesh Bajpai</div>
+            <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Scientific Advisor, Plant and Environmental Research Institute</div>
+          </div>
+          <div class="tribute-card-body" style="padding: 25px; position: relative;">
+            <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+            <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
+              Radhe, the Godawan Man of India, and his team were very good at fieldwork because they grew up there and are well aware about the local ecology and the pattern or behaviour of the animals they are protecting as well as their threats. We'd have long debates about him turning down formal jobs. As the biggest conservationist of the Great Indian Bustard, he believed he would be most effective working independently with his community.
+            </div>
+            <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 25, 2025</div>
+          </div>
+        </div>
+
+        <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
+            <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Govind Sagar Bharadwaj</div>
+            <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Member Secretary, NTCA</div>
+          </div>
+          <div class="tribute-card-body" style="padding: 25px; position: relative;">
+            <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+            <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
+              Many youth were trained at that time, but Martyr Radhe was perhaps the only one who developed such passion for landscape and wildlife conservation. His contribution as the Godawan Man of India and the biggest conservationist of the Great Indian Bustard has been immense and so this loss, is big.
+            </div>
+            <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 26, 2025</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- International Content -->
+    <div class="tributes-content" id="international-content" style="display: none;">
+      <div class="tribute-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px;">
+        <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
+            <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">Martin Goodman</div>
+            <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">Author of "My Head For A Tree: The Extraordinary Story of the Bishnoi"</div>
+          </div>
+          <div class="tribute-card-body" style="padding: 25px; position: relative;">
+            <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+            <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
+              In my book, I documented how the Godawan Man of India once climbed a transmission tower and threatened to jump if the forest department didn't fit reflectors on the electric wires after a GIB electrocution. His courage and conviction as the biggest conservationist of the Great Indian Bustard were extraordinary. The world has lost Martyr Radhe, a true environmental hero who died in the name of animals.
+            </div>
+            <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 26, 2025</div>
+          </div>
+        </div>
+
+        <div class="tribute-card" style="background-color: white; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div class="tribute-card-header" style="background-color: hsl(214, 57%, 51%); padding: 15px 20px; position: relative;">
+            <div class="tribute-card-author" style="color: white; font-weight: 700; font-size: 1.1rem;">International Union for Conservation of Nature</div>
+            <div style="color: rgba(255,255,255,0.9); font-size: 0.9rem;">IUCN</div>
+          </div>
+          <div class="tribute-card-body" style="padding: 25px; position: relative;">
+            <div class="quote-mark" style="position: absolute; top: 10px; left: 10px; font-size: 60px; opacity: 0.1; font-family: Georgia, serif; line-height: 1;">"</div>
+            <div class="tribute-card-content" style="position: relative; z-index: 1; line-height: 1.6; color: #444; font-style: italic;">
+              The IUCN mourns the loss of Martyr Radhe, the Godawan Man of India, whose grassroots conservation efforts for the Critically Endangered Great Indian Bustard exemplified community-led conservation at its finest. As the biggest conservationist of the Great Indian Bustard, his work demonstrates how local champions can make significant impacts on species conservation.
+            </div>
+            <div class="tribute-card-date" style="margin-top: 20px; text-align: right; font-size: 0.85rem; color: #777;">May 27, 2025</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Padma Shri Nomination Section -->
+<section class="memorial-section" style="background: linear-gradient(to bottom, #ffffff, #f5f5f5); padding: 80px 0;">
+  <div class="container">
+    <h2 class="memorial-section-title">
+      <span data-lang="en">Padma Shri Award Campaign</span>
+      <span data-lang="hi">पद्म श्री पुरस्कार अभियान</span>
+    </h2>
+    <div style="width: 100px; height: 4px; background-color: hsl(214, 57%, 51%); margin: 0 auto 40px;"></div>
+    <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.1rem; color: #555;" data-lang="en">Local communities and conservationists across India have requested the government to honor Radheshyam Bishnoi with the prestigious Padma Shri Award (posthumous) for his extraordinary contributions to wildlife conservation and ultimate sacrifice. The campaign is ongoing, with hopes that his remarkable legacy will receive this well-deserved national recognition.</p>
+    <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.1rem; color: #555;" data-lang="hi">समूचे भारत के स्थानीय समुदायों और संरक्षणवादियों ने सरकार से अनुरोध किया है कि वन्यजीव संरक्षण में राधेश्याम बिश्नोई के असाधारण योगदान एवं सर्वोच्च बलिदान के लिए उन्हें मरणोपरांत प्रतिष्ठित पद्म श्री से सम्मानित किया जाए। यह अभियान इस आशा के साथ जारी है कि उनकी उल्लेखनीय विरासत को उपयुक्त राष्ट्रीय मान्यता मिलेगी।</p>
+
+    <div style="max-width: 900px; margin: 0 auto; background-color: white; padding: 40px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+      <div style="border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 25px;">
+        <h3 style="font-size: 1.4rem; color: #333; margin-bottom: 10px;" data-lang="en">Key Achievements Highlighted in Campaign</h3>
+        <h3 style="font-size: 1.4rem; color: #333; margin-bottom: 10px;" data-lang="hi">अभियान में उजागर की गई प्रमुख उपलब्धियां</h3>
+        <p style="color: #777; font-style: italic;" data-lang="en">Proposed for consideration by the Padma Awards Committee, Ministry of Home Affairs, Government of India</p>
+        <p style="color: #777; font-style: italic;" data-lang="hi">पद्म पुरस्कार समिति, गृह मंत्रालय, भारत सरकार द्वारा विचार के लिए प्रस्तावित</p>
+      </div>
+
+      <div class="achievements-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin-bottom: 30px;">
+        <div class="achievement-card" style="background-color: #f9f9f9; border-radius: 8px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div style="font-size: 2.5rem; color: hsl(214, 57%, 51%); margin-bottom: 15px; text-align: center;">
+            <ion-icon name="water-outline"></ion-icon>
+          </div>
+          <h4 style="font-size: 1.2rem; margin-bottom: 12px; text-align: center; color: #333;">Water Conservation</h4>
+          <p style="line-height: 1.6; color: #555; text-align: center;">Constructed and maintained 50-60 water ponds at his own expense, providing a lifeline for wildlife in the arid Thar Desert.</p>
+        </div>
+
+        <div class="achievement-card" style="background-color: #f9f9f9; border-radius: 8px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div style="font-size: 2.5rem; color: hsl(214, 57%, 51%); margin-bottom: 15px; text-align: center;">
+            <ion-icon name="shield-outline"></ion-icon>
+          </div>
+          <h4 style="font-size: 1.2rem; margin-bottom: 12px; text-align: center; color: #333;">Anti-Poaching Efforts</h4>
+          <p style="line-height: 1.6; color: #555; text-align: center;">Collaborated with forest department to conduct over 1,000 raids to curb poaching and illegal activities threatening wildlife.</p>
+        </div>
+
+        <div class="achievement-card" style="background-color: #f9f9f9; border-radius: 8px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div style="font-size: 2.5rem; color: hsl(214, 57%, 51%); margin-bottom: 15px; text-align: center;">
+            <ion-icon name="people-outline"></ion-icon>
+          </div>
+          <h4 style="font-size: 1.2rem; margin-bottom: 12px; text-align: center; color: #333;">Community Conservation</h4>
+          <p style="line-height: 1.6; color: #555; text-align: center;">Led community-driven initiatives like the Godawan Community Conservation Project, protecting endangered species including blackbuck.</p>
+        </div>
+      </div>
+
+      <div style="background-color: #f0f7ff; border-radius: 8px; padding: 25px; margin-bottom: 30px; border-left: 4px solid hsl(214, 57%, 51%);">
+        <h4 style="font-size: 1.2rem; margin-bottom: 15px; color: #333;" data-lang="en">Dedication & Impact</h4>
+        <h4 style="font-size: 1.2rem; margin-bottom: 15px; color: #333;" data-lang="hi">समर्पण और प्रभाव</h4>
+        <p style="line-height: 1.7; color: #444;">
+          Radheshyam dedicated over 12 years to conservation in the harsh terrain of Rajasthan's western desert. His hands-on approach included rescuing injured animals, fighting poachers, and ensuring water availability. His work saved countless animals and inspired others to join environmental preservation efforts. Despite his young age, his impact was profound, earning him admiration across Rajasthan and beyond.
+        </p>
+      </div>
+
+      <div style="background-color: #fff5f5; border-radius: 8px; padding: 25px; border-left: 4px solid #d33;">
+        <h4 style="font-size: 1.2rem; margin-bottom: 15px; color: #333;" data-lang="en">Ultimate Sacrifice</h4>
+        <h4 style="font-size: 1.2rem; margin-bottom: 15px; color: #333;" data-lang="hi">अंतिम बलिदान</h4>
+        <p style="line-height: 1.7; color: #444;">
+          On May 24, 2025, at the age of 28, Radheshyam Bishnoi, along with three fellow conservationists, lost his life in a road accident while pursuing poachers. His ultimate sacrifice underscores the depth of his commitment and courage. The loss of such a passionate and selfless individual has left a void in the conservation community, but his legacy continues to inspire.
+        </p>
+      </div>
+
+      <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+        <p style="font-size: 0.9rem; color: #777;"><strong>References:</strong> News article on Radheshyam Bishnoi's contributions (Mongabay India, May 24, 2025) and social media posts highlighting his work (March 4, 2025, and May 26–27, 2025).</p>
+      </div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; align-items:center; margin-top:40px;">
+      <img src="./assets/images/memories/25.png"
+      alt="Radheshyam Bishnoi with a Great Indian Bustard in its natural habitat in the Thar Desert"
+      style="max-width:500px; width:100%; height:auto; border-radius:8px;
+      box-shadow:0 10px 30px rgba(0,0,0,.15);">
+      <p style="margin-top:15px; font-style:italic; color:#666;" data-lang="en">
+        Image proposed for the Padma Shri campaign showing Radheshyam with a Great Indian Bustard
+      </p>
+      <p style="margin-top:15px; font-style:italic; color:#666;" data-lang="hi">
+        पद्म श्री अभियान के लिए प्रस्तावित छवि, जिसमें राधेश्याम ग्रेट इंडियन बस्टर्ड के साथ हैं
+      </p>
+    </div>
+
+
+    <div style="text-align:center; margin-top:50px;">
+      <a href="./donation.html" style="display:inline-block;">
+        <button class="btn btn-primary" style="display:inline-block;">
+          <span data-lang="en">Join the Padma Shri Campaign</span>
+          <span data-lang="hi">पद्म श्री अभियान में शामिल हों</span>
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Social Media Tributes Section -->
+  <section class="memorial-section" style="background: linear-gradient(to bottom, #f5f5f5, #ffffff); padding: 80px 0;">
+    <div class="container">
+      <h2 class="memorial-section-title">
+        <span data-lang="en">Social Media Tributes</span>
+        <span data-lang="hi">सोशल मीडिया श्रद्धांजलि</span>
+      </h2>
+      <div style="width: 100px; height: 4px; background-color: hsl(214, 57%, 51%); margin: 0 auto 40px;"></div>
+      <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.1rem; color: #555;" data-lang="en">Tributes to Radheshyam Bishnoi from conservation organizations, government officials, and wildlife advocates across social media platforms.</p>
+      <p style="text-align: center; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8; font-size: 1.1rem; color: #555;" data-lang="hi">सोशल मीडिया प्लेटफॉर्म पर संरक्षण संगठनों, सरकारी अधिकारियों और वन्यजीव अधिवक्ताओं द्वारा राधेश्याम बिश्नोई को श्रद्धांजलि।</p>
+
+      <!-- Social Media Cards Container -->
+      <div id="social-media-cards" class="social-media-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+        <!-- Cards will be dynamically inserted here by the JavaScript function -->
+      </div>
+
+      <!-- Load More Button -->
+      <div style="display:flex; justify-content:center; margin-top:50px;">
+        <button id="load-more-tributes"
+                class="btn btn-primary"
+                style="background:#f5f5f5; color:#333; border:none; padding:12px 30px;
+                       border-radius:30px; font-weight:600;
+                       box-shadow:0 4px 10px rgba(0,0,0,.1);
+                       cursor:pointer; transition:.3s;">
+          <span data-lang="en">Load More Tributes</span>
+          <span data-lang="hi">और श्रद्धांजलियां लोड करें</span>
+        </button>
+      </div>
+
+  </section>
+
+  <!-- JavaScript for Social Media Tributes -->
+  <script>
         // Social Media Tributes Data
-        const socialMediaTributes = [
-          {
-            platform: 'instagram',
-            author: 'Wildlife Institute of India',
-            authorHandle: '@wii_india',
-            date: 'May 26, 2025',
-            content: 'With profound sadness, we mourn the loss of Radheshyam Bishnoi, the "Godawan Man of India" and a tireless champion for the critically endangered Great Indian Bustard. His dedication to conservation in the harsh Thar Desert landscape has saved countless animals and inspired a generation of conservationists. His legacy will continue to guide our efforts to protect India\'s precious wildlife.',
-            imageUrl: './assets/images/memories/21.png',
-            originalLink: 'https://www.instagram.com/p/DKJPgK4vqPh/?igsh=ZWI4dnN4bWwxdHNz',
-            likes: 2453,
-            comments: 187
-          },
-          {
-            platform: 'instagram',
-            author: 'Sanctuary Nature Foundation',
-            authorHandle: '@sanctuaryasia',
-            date: 'May 25, 2025',
-            content: 'The conservation community has lost a true hero. Radheshyam Bishnoi, our Mud-on-Boots Project Leader and recipient of the Sanctuary Wildlife Service Award, tragically lost his life while pursuing poachers. His unwavering commitment to protecting the Great Indian Bustard and other wildlife in the Thar Desert has left an indelible mark on conservation in India. We pledge to honor his memory by continuing his vital work.',
+    const socialMediaTributes = [
+      {
+        platform: 'instagram',
+        author: 'Wildlife Institute of India',
+        authorHandle: '@wii_india',
+        date: 'May 26, 2025',
+        content: 'With profound sadness, we mourn the loss of Radheshyam Bishnoi, the "Godawan Man of India" and a tireless champion for the critically endangered Great Indian Bustard. His dedication to conservation in the harsh Thar Desert landscape has saved countless animals and inspired a generation of conservationists. His legacy will continue to guide our efforts to protect India\'s precious wildlife.',
+        imageUrl: './assets/images/memories/21.png',
+        originalLink: 'https://www.instagram.com/p/DKJPgK4vqPh/?igsh=ZWI4dnN4bWwxdHNz',
+        likes: 2453,
+        comments: 187
+      },
+      {
+        platform: 'instagram',
+        author: 'Sanctuary Nature Foundation',
+        authorHandle: '@sanctuaryasia',
+        date: 'May 25, 2025',
+        content: 'The conservation community has lost a true hero. Radheshyam Bishnoi, our Mud-on-Boots Project Leader and recipient of the Sanctuary Wildlife Service Award, tragically lost his life while pursuing poachers. His unwavering commitment to protecting the Great Indian Bustard and other wildlife in the Thar Desert has left an indelible mark on conservation in India. We pledge to honor his memory by continuing his vital work.',
             imageUrl: './assets/images/memories/04.jpg', // This one is correct
             originalLink: 'https://www.instagram.com/p/DKHoCm2IdjH/?igsh=MW9pMW90cGNqanUyOA==',
             likes: 3218,
@@ -1360,21 +1389,21 @@
             // Platform-specific styling
             let headerColor, platformIcon;
             switch(tribute.platform) {
-              case 'instagram':
-                headerColor = 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)';
-                platformIcon = '<ion-icon name="logo-instagram"></ion-icon>';
-                break;
-              case 'twitter':
-                headerColor = '#1DA1F2';
-                platformIcon = '<ion-icon name="logo-twitter"></ion-icon>';
-                break;
-              case 'linkedin':
-                headerColor = '#0077B5';
-                platformIcon = '<ion-icon name="logo-linkedin"></ion-icon>';
-                break;
-              default:
-                headerColor = '#333';
-                platformIcon = '<ion-icon name="globe-outline"></ion-icon>';
+            case 'instagram':
+              headerColor = 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)';
+              platformIcon = '<ion-icon name="logo-instagram"></ion-icon>';
+              break;
+            case 'twitter':
+              headerColor = '#1DA1F2';
+              platformIcon = '<ion-icon name="logo-twitter"></ion-icon>';
+              break;
+            case 'linkedin':
+              headerColor = '#0077B5';
+              platformIcon = '<ion-icon name="logo-linkedin"></ion-icon>';
+              break;
+            default:
+              headerColor = '#333';
+              platformIcon = '<ion-icon name="globe-outline"></ion-icon>';
             }
             
             // Create card HTML
@@ -1389,16 +1418,16 @@
                 </div>
                 <div style="color: white; font-size: 0.85rem;">${tribute.date}</div>
               </div>
-              
+
               <div style="padding: 20px;">
                 <p style="margin-bottom: 15px; line-height: 1.6; color: #333; font-size: 0.95rem;">${tribute.content}</p>
-                
-                ${tribute.imageUrl ? `<div style="margin: 15px 0; border-radius: 8px; overflow: hidden;">
+
+              ${tribute.imageUrl ? `<div style="margin: 15px 0; border-radius: 8px; overflow: hidden;">
                   <img src="${tribute.imageUrl}" alt="Social media post image about Radheshyam Bishnoi" style="width: 100%; height: auto; display: block;">
-                </div>` : ''}
-                
+              </div>` : ''}
+
                 <div style="display: flex; justify-content: space-between; margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; color: #777; font-size: 0.9rem;">
-                  <div>
+                  <div style="display:flex; align-items:center; gap:15px;">
                     <span style="margin-right: 15px;"><ion-icon name="heart-outline"></ion-icon> ${tribute.likes}</span>
                     <span><ion-icon name="chatbubble-outline"></ion-icon> ${tribute.comments}</span>
                   </div>
