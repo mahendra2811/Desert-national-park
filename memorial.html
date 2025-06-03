@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>In Memory of Radhey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: url('./assets/images/thumbnails/Home-banner\ \(1\).webp') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 2rem;
+      border: 8px solid #ffffff;
+      box-sizing: border-box;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    }
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 2px pink;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 90%;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    section h2 {
+      text-align: center;
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .testimonial {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #007B5E;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .testimonial-media {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .testimonial p {
+      font-style: italic;
+    }
+    .testimonial .author {
+      font-weight: 600;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>1997 - 2025</h1>
+    <h1>IN LOVING MEMORY OF RADHEY</h1>
+  </header>
+
+  <section>
+    <h2>Tributes & Memories</h2>
+
+    <div class="testimonial">
+      <img src="vinay-testimonial.jpg" alt="Vinay Chittora" class="testimonial-media">
+      <p>“Radhey was a man of action, not words. Watching him scan the Oran with unwavering focus taught me more than any book ever could.”</p>
+      <div class="author">— Vinay Chittora</div>
+    </div>
+
+    <div class="testimonial">
+      <video controls class="testimonial-media">
+        <source src="conservationist-tribute.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>“He built water holes for the wildlife, chased poachers without fear, and gave his life doing what he loved most — protecting the voiceless.”</p>
+      <div class="author">— A fellow conservationist</div>
+    </div>
+
+    <div class="testimonial">
+      <img src="forest-guard.jpg" alt="Forest Guard" class="testimonial-media">
+      <p>“Radhey bhai's silence had power. His presence brought hope to the birds, animals, and people around him. He was one in a million.”</p>
+      <div class="author">— Forest Guard, Rajasthan</div>
+    </div>
+
+    <!-- Add more testimonials as needed -->
+
+  </section>
+</body>
+</html>
